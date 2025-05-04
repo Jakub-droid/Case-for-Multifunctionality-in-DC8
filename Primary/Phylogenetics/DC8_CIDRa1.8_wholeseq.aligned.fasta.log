@@ -1,0 +1,904 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    node3d28.ecdf.ed.ac.uk (AVX512, FMA3, 1006 GB RAM)
+Command: iqtree2 --safe -s DC8_CIDRa1.8_wholeseq.aligned.fasta -m JTT+F+I+I+R10 -alrt 1000 -nt 8
+Seed:    341980 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar 24 11:10:40 2025
+Kernel:  Safe AVX+FMA - 8 threads (8 CPU cores detected)
+
+Reading alignment file DC8_CIDRa1.8_wholeseq.aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.00205989 secs using 87.29% CPU
+Alignment most likely contains protein sequences
+Alignment has 476 sequences with 291 columns, 254 distinct patterns
+217 parsimony-informative, 7 singleton sites, 67 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.17581e-05 secs using 3194% CPU
+   1  PD0718-C.g57_474-741_CIDRa1.8_        8.25%    passed     85.43%
+   2  PH0342-C.g251_485-752_CIDRa1.8_       8.25%    passed     86.62%
+   3  PH0343-C.g239_485-752_CIDRa1.8_       8.25%    passed     86.62%
+   4  PH0344-C.g258_485-752_CIDRa1.8_       8.25%    passed     86.62%
+   5  PH0349-C.g260_485-752_CIDRa1.8_       8.25%    passed     86.62%
+   6  PH0354-C.g186_485-752_CIDRa1.8_       8.25%    passed     86.62%
+   7  PH0849-C.g600_485-752_CIDRa1.8_       8.25%    passed     86.62%
+   8  TM180var1_485-752_CIDRa1.8_           8.25%    passed     86.62%
+   9  QE0401-C.g433_485-745_CIDRa1.8_      10.65%    passed     50.03%
+  10  QE0443-C.g294_485-745_CIDRa1.8_      10.65%    passed     50.03%
+  11  PF0045-C.g80_480-756_CIDRa1.8_        5.15%    passed     36.72%
+  12  PT0208-C.g3150_561-836_CIDRa1.8_      5.50%    passed     67.67%
+  13  PF0129-C.g70_486-761_CIDRa1.8_        5.50%    passed     64.57%
+  14  PF0722-C.g234_486-761_CIDRa1.8_       5.50%    passed     64.57%
+  15  PT0280-C.g7425_493-768_CIDRa1.8_      5.50%    passed     64.57%
+  16  PT0081-C.g4221_486-761_CIDRa1.8_      5.50%    passed     49.58%
+  17  QE0414-C.g420_487-760_CIDRa1.8_       6.19%    passed     46.15%
+  18  QE0422-C.g377_487-760_CIDRa1.8_       6.19%    passed     46.15%
+  19  PT0112-C.g2143_491-764_CIDRa1.8_      6.19%    passed     49.55%
+  20  PT0079-C.g335_475-748_CIDRa1.8_       6.19%    passed     32.48%
+  21  PT0101-C.g114_480-753_CIDRa1.8_       6.19%    passed     34.39%
+  22  PV0302-C.g596_487-760_CIDRa1.8_       6.19%    passed     49.14%
+  23  QP0220-C.g306_493-766_CIDRa1.8_       6.19%    passed     60.00%
+  24  PD0816-C.g23_489-762_CIDRa1.8_        6.19%    passed     64.57%
+  25  PD0817-C.g749_489-762_CIDRa1.8_       6.19%    passed     64.57%
+  26  PD0827-C.g544_489-762_CIDRa1.8_       6.19%    passed     64.57%
+  27  PE0090-C.g132_483-756_CIDRa1.8_       6.19%    passed     18.85%
+  28  PA0152-C.g322_494-768_CIDRa1.8_       5.84%    passed     97.77%
+  29  PD0789-C.g84_484-758_CIDRa1.8_        5.84%    passed     92.83%
+  30  QP0003-C.g790_487-761_CIDRa1.8_       5.84%    passed     91.12%
+  31  PT0155-C.g501_484-757_CIDRa1.8_       6.19%    passed     82.11%
+  32  QM0020-C.g1473_484-757_CIDRa1.8_      6.19%    passed     75.70%
+  33  PF0359-C.g86_473-749_CIDRa1.8_        5.15%    passed     63.56%
+  34  PT0003-CW.g720_479-755_CIDRa1.8_      5.15%    passed     63.52%
+  35  QG0208-C.g179_479-755_CIDRa1.8_       5.15%    passed     63.52%
+  36  QG0202-C.g100_461-740_CIDRa1.8_       4.12%    passed     60.26%
+  37  PA0072-C.g88_504-785_CIDRa1.8_        3.44%    passed     20.23%
+  38  PT0075-C.g1080_487-754_CIDRa1.8_      8.25%    passed     72.48%
+  39  PT0205-C.g655_461-728_CIDRa1.8_       8.25%    passed     72.48%
+  40  QG0047-C.g621_469-724_CIDRa1.8_      12.37%    passed     99.98%
+  41  PT0077-C.g1008_468-721_CIDRa1.8_     13.06%    passed     99.19%
+  42  PA0177-C.g838_468-721_CIDRa1.8_      13.06%    passed     98.73%
+  43  PA0202-C.g365_468-721_CIDRa1.8_      13.06%    passed     98.73%
+  44  PF0427-C.g237_468-721_CIDRa1.8_      13.06%    passed     98.73%
+  45  PM0034-C.g3066_468-721_CIDRa1.8_     13.06%    passed     98.73%
+  46  PF0123-C.g110_468-721_CIDRa1.8_      13.06%    passed     98.39%
+  47  PF0432-C.g607_468-721_CIDRa1.8_      13.06%    passed     98.39%
+  48  PT0142-C.g1113_468-721_CIDRa1.8_     13.06%    passed     98.39%
+  49  PF0356-C.g150_468-721_CIDRa1.8_      13.06%    passed     99.53%
+  50  PF0163-C.g126_475-728_CIDRa1.8_      13.06%    passed     99.90%
+  51  PT0198-C.g836_482-735_CIDRa1.8_      13.06%    passed     98.61%
+  52  PA0038-C.g200_468-721_CIDRa1.8_      13.06%    passed     98.06%
+  53  PA0210-C.g1033_470-723_CIDRa1.8_     13.06%    passed     97.89%
+  54  PF0052-C.g198_470-723_CIDRa1.8_      13.06%    passed     97.89%
+  55  QG0020-C.g5232_482-735_CIDRa1.8_     13.06%    passed     99.43%
+  56  PF0155-C.g67_470-723_CIDRa1.8_       13.06%    passed     98.52%
+  57  PV0298-C.g24_470-723_CIDRa1.8_       13.06%    passed     97.67%
+  58  QE0425-C.g1008_470-723_CIDRa1.8_     13.06%    passed     97.67%
+  59  PF0109-C.g442_478-731_CIDRa1.8_      13.06%    passed     99.65%
+  60  PF0815-C.g622_488-741_CIDRa1.8_      13.06%    passed     98.32%
+  61  PF0036-C.g878_490-743_CIDRa1.8_      13.06%    passed     94.87%
+  62  PT0048-C.g209_490-743_CIDRa1.8_      13.06%    passed     96.03%
+  63  PA0270-C.g383_492-745_CIDRa1.8_      13.06%    passed     95.95%
+  64  PF0169-C.g849_492-745_CIDRa1.8_      13.06%    passed     95.95%
+  65  QP0055-C.g281_492-745_CIDRa1.8_      13.06%    passed     95.95%
+  66  PT0230-Cx.g125_465-718_CIDRa1.8_     13.06%    passed     99.98%
+  67  PF0281-C.g468_482-735_CIDRa1.8_      13.06%    passed     99.74%
+  68  PT0240-C.g375_482-735_CIDRa1.8_      13.06%    passed     99.74%
+  69  PT0126-C.g387_482-735_CIDRa1.8_      13.06%    passed     99.67%
+  70  PF0472-C.g90_470-723_CIDRa1.8_       13.06%    passed     99.88%
+  71  PV0039-C.g145_467-720_CIDRa1.8_      13.06%    passed     99.98%
+  72  PD0585-C.g720_470-723_CIDRa1.8_      13.06%    passed     99.97%
+  73  QE0433-C.g335_470-723_CIDRa1.8_      13.06%    passed     99.97%
+  74  PE0117-C.g342_468-721_CIDRa1.8_      13.06%    passed     99.72%
+  75  QG0240-C.g2450_468-721_CIDRa1.8_     13.06%    passed     99.72%
+  76  PH0631-C.g469_470-723_CIDRa1.8_      13.06%    passed     99.99%
+  77  PH0647-C.g380_470-723_CIDRa1.8_      13.06%    passed     99.99%
+  78  PT0140-C.g2021_465-718_CIDRa1.8_     13.06%    passed     99.98%
+  79  PE0145-C.g113_465-718_CIDRa1.8_      13.06%    passed     99.86%
+  80  PF0006-C.g1867_492-745_CIDRa1.8_     13.06%    passed     99.10%
+  81  PA0014-C.g365_479-732_CIDRa1.8_      13.06%    passed     99.99%
+  82  PE0091-C.g380_478-731_CIDRa1.8_      13.06%    passed     99.99%
+  83  PF0347-C.g566_478-731_CIDRa1.8_      13.06%    passed     99.99%
+  84  PF0777-C.g1128_433-686_CIDRa1.8_     13.06%    passed     99.99%
+  85  PR0118-C.g222_479-732_CIDRa1.8_      13.06%    passed     99.99%
+  86  PR0155-C.g156_479-732_CIDRa1.8_      13.06%    passed     99.99%
+  87  QM0011-C.g736_478-731_CIDRa1.8_      13.06%    passed     99.99%
+  88  QP0068-C.g357_479-732_CIDRa1.8_      13.06%    passed     99.99%
+  89  SenT002.07.g1587_479-732_CIDRa1.8_   13.06%    passed     99.99%
+  90  PT0206-Cx.g198_490-743_CIDRa1.8_     13.06%    passed     99.98%
+  91  PA0256-C.g410_461-714_CIDRa1.8_      13.06%    passed     32.25%
+  92  PF0066-C.g155_461-714_CIDRa1.8_      13.06%    passed     32.25%
+  93  PD0722-C.g147_454-707_CIDRa1.8_      13.06%    passed     97.16%
+  94  PD0728-C.g66_460-713_CIDRa1.8_       13.06%    passed     97.16%
+  95  PD0733-C.g53_460-713_CIDRa1.8_       13.06%    passed     97.16%
+  96  PD0748-C.g72_454-707_CIDRa1.8_       13.06%    passed     97.16%
+  97  PD0750-C.g1051_452-705_CIDRa1.8_     13.06%    passed     97.16%
+  98  PD0758-C.g107_460-713_CIDRa1.8_      13.06%    passed     97.16%
+  99  PD0776-C.g223_460-713_CIDRa1.8_      13.06%    passed     97.16%
+ 100  PD0790-C.g144_461-714_CIDRa1.8_      13.06%    passed     97.16%
+ 101  PD0848-C.g87_460-713_CIDRa1.8_       13.06%    passed     97.16%
+ 102  PH0059-C.g282_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 103  PH0211-C.g24_496-749_CIDRa1.8_       13.06%    passed     97.16%
+ 104  PH0322-C.g207_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 105  PH0341-C.g227_495-748_CIDRa1.8_      13.06%    passed     97.16%
+ 106  PH0494-CW.g495_496-749_CIDRa1.8_     13.06%    passed     97.16%
+ 107  PH0520-C.g549_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 108  PH0964-Cx.g208_462-715_CIDRa1.8_     13.06%    passed     97.16%
+ 109  PH1188-C.g82_453-706_CIDRa1.8_       13.06%    passed     97.16%
+ 110  PH1253-C.g192_462-715_CIDRa1.8_      13.06%    passed     97.16%
+ 111  PV0018-C.g116_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 112  PV0084-C.g1_496-749_CIDRa1.8_        13.06%    passed     97.16%
+ 113  PV0249-Cx.g66_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 114  PV0252-C.g466_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 115  PV0264-C.g560_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 116  PV0270-C.g413_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 117  PV0272-C.g333_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 118  PV0280-C.g159_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 119  PV0304-C.g472_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 120  PV0305-C.g213_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 121  PV0358-C.g273_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 122  QC0205-C.g568_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 123  QC0213-C.g256_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 124  QC0220-C.g209_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 125  QC0222-C.g296_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 126  QE0423-C.g473_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 127  QE0432-C.g901_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 128  QE0436-C.g196_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 129  QE0456-C.g364_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 130  QE0458-C.g251_496-749_CIDRa1.8_      13.06%    passed     97.16%
+ 131  QE0460-C.g44_496-749_CIDRa1.8_       13.06%    passed     97.16%
+ 132  QE0463-C.g60_496-749_CIDRa1.8_       13.06%    passed     97.16%
+ 133  PV0335-C.g475_496-749_CIDRa1.8_      13.06%    passed     91.08%
+ 134  QC0169-C.g212_496-749_CIDRa1.8_      13.06%    passed     93.53%
+ 135  PD0494-C.g71_479-732_CIDRa1.8_       13.06%    passed     96.29%
+ 136  PD0536-C.g14_479-732_CIDRa1.8_       13.06%    passed     96.29%
+ 137  PH0131-CW.g91_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 138  PH0134-C.g109_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 139  PH0224-C.g11_479-732_CIDRa1.8_       13.06%    passed     96.29%
+ 140  PH0353-C.g127_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 141  PH0469-CW.g399_479-732_CIDRa1.8_     13.06%    passed     96.29%
+ 142  PH0485-C.g112_451-704_CIDRa1.8_      13.06%    passed     96.29%
+ 143  PH0534-C.g187_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 144  PH0634-C.g201_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 145  PH0819-C.g554_364-617_CIDRa1.8_      13.06%    passed     96.29%
+ 146  PH0820-C.g626_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 147  PH0823-C.g591_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 148  PH0826-C.g559_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 149  PH0828-C.g469_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 150  PH0833-C.g819_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 151  PH0847-C.g681_396-649_CIDRa1.8_      13.06%    passed     96.29%
+ 152  PH0854-C.g470_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 153  PH0855-C.g646_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 154  PH0888-C.g329_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 155  PH0889-C.g744_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 156  PH0890-C.g829_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 157  PH0893-C.g12833_479-732_CIDRa1.8_    13.06%    passed     96.29%
+ 158  PH0894-C.g635_410-663_CIDRa1.8_      13.06%    passed     96.29%
+ 159  PH0899-C.g471_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 160  PH0900-C.g585_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 161  PH0901-C.g801_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 162  PH0907-C.g899_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 163  PH0908-C.g880_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 164  PH0910-C.g439_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 165  PH0911-Cx.g429_479-732_CIDRa1.8_     13.06%    passed     96.29%
+ 166  PH0915-C.g31_479-732_CIDRa1.8_       13.06%    passed     96.29%
+ 167  PH0916-C.g1006_479-732_CIDRa1.8_     13.06%    passed     96.29%
+ 168  PH0984-C.g259_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 169  PH0989-C.g446_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 170  PH0990-C.g1891_479-732_CIDRa1.8_     13.06%    passed     96.29%
+ 171  PH0991-C.g1046_488-741_CIDRa1.8_     13.06%    passed     96.29%
+ 172  PH1001-C.g958_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 173  PH1002-C.g1759_479-732_CIDRa1.8_     13.06%    passed     96.29%
+ 174  PH1105-C.g1363_479-732_CIDRa1.8_     13.06%    passed     96.29%
+ 175  PH1136-C.g324_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 176  PH1153-C.g195_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 177  PH1218-C.g857_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 178  PV0017-C.g327_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 179  PV0035-C.g4_479-732_CIDRa1.8_        13.06%    passed     96.29%
+ 180  PV0046-C.g29_479-732_CIDRa1.8_       13.06%    passed     96.29%
+ 181  QE0464-C.g520_479-732_CIDRa1.8_      13.06%    passed     96.29%
+ 182  PT0145-C.g730_481-734_CIDRa1.8_      13.06%    passed     68.13%
+ 183  PT0273-C.g3632_336-589_CIDRa1.8_     13.06%    passed     72.74%
+ 184  QG0098-C.g118_482-735_CIDRa1.8_      13.06%    passed     72.74%
+ 185  PT0243-Cx.g719_482-735_CIDRa1.8_     13.06%    passed     68.66%
+ 186  PR0131-C.g3814_475-728_CIDRa1.8_     13.06%    passed     97.91%
+ 187  PR0162-C.g859_475-728_CIDRa1.8_      13.06%    passed     97.91%
+ 188  PR0166-C.g211_475-728_CIDRa1.8_      13.06%    passed     97.91%
+ 189  PF0175-C.g339_485-738_CIDRa1.8_      13.06%    passed     96.22%
+ 190  PA0014-C.g292_471-724_CIDRa1.8_      13.06%    passed     62.88%
+ 191  PF0122-C.g160_481-734_CIDRa1.8_      13.06%    passed     62.88%
+ 192  PF0255-C.g159_481-734_CIDRa1.8_      13.06%    passed     62.88%
+ 193  PF0445-C.g169_481-734_CIDRa1.8_      13.06%    passed     62.88%
+ 194  PH0339-C.g320_481-734_CIDRa1.8_      13.06%    passed     62.88%
+ 195  QG0106-C.g531_472-725_CIDRa1.8_      13.06%    passed     62.88%
+ 196  PE0141-C.g378_485-738_CIDRa1.8_      13.06%    passed     95.98%
+ 197  PM0019-C.g738_485-738_CIDRa1.8_      13.06%    passed     95.98%
+ 198  QC0199-C.g603_448-703_CIDRa1.8_      12.37%    passed    100.00%
+ 199  PE0138-C.g116_457-712_CIDRa1.8_      12.37%    passed     99.97%
+ 200  PF0195-C.g421_457-712_CIDRa1.8_      12.37%    passed     99.97%
+ 201  PT0220-C.g461_457-712_CIDRa1.8_      12.37%    passed     99.97%
+ 202  QP0178-C.g515_457-712_CIDRa1.8_      12.37%    passed     99.97%
+ 203  PF0408-C.g549_483-737_CIDRa1.8_      12.71%    passed     98.39%
+ 204  SenT094.09.g954_483-737_CIDRa1.8_    12.71%    passed     98.39%
+ 205  QG0158-C.g1370_488-742_CIDRa1.8_     12.71%    passed     96.79%
+ 206  PE0119-C.g374_464-718_CIDRa1.8_      12.71%    passed     98.81%
+ 207  PH0511-C.g107_470-724_CIDRa1.8_      12.71%    passed     92.92%
+ 208  PH0603-C.g1771_470-724_CIDRa1.8_     12.71%    passed     92.92%
+ 209  PF0156-C.g255_464-718_CIDRa1.8_      12.71%    passed     97.34%
+ 210  PR0129-C.g448_466-720_CIDRa1.8_      12.71%    passed     97.34%
+ 211  PE0126-C.g444_461-715_CIDRa1.8_      12.71%    passed     99.76%
+ 212  QG0234-C.g2635_461-715_CIDRa1.8_     12.71%    passed     99.76%
+ 213  PF0270-C.g583_458-712_CIDRa1.8_      12.71%    passed     99.55%
+ 214  PD0493-C.g657_480-734_CIDRa1.8_      12.71%    passed     99.88%
+ 215  PD0555-C.g365_482-736_CIDRa1.8_      12.71%    passed     99.88%
+ 216  PD0755-C.g150_482-736_CIDRa1.8_      12.71%    passed     99.88%
+ 217  PD0836-C.g145_482-736_CIDRa1.8_      12.71%    passed     99.85%
+ 218  PD0796-C.g129_482-736_CIDRa1.8_      12.71%    passed     98.94%
+ 219  PE0134-C.g362_461-715_CIDRa1.8_      12.71%    passed     99.97%
+ 220  PF0037-C.g205_460-714_CIDRa1.8_      12.71%    passed     99.71%
+ 221  QG0275-C.g136_473-727_CIDRa1.8_      12.71%    passed     99.18%
+ 222  QG0216-C.g427_477-731_CIDRa1.8_      12.71%    passed     92.40%
+ 223  PA0007-C.g26_477-731_CIDRa1.8_       12.71%    passed     97.97%
+ 224  PA0021-C.g246_477-731_CIDRa1.8_      12.71%    passed     97.97%
+ 225  PA0027-C.g797_377-631_CIDRa1.8_      12.71%    passed     97.97%
+ 226  PF0432-C.g598_466-720_CIDRa1.8_      12.71%    passed     95.89%
+ 227  PF0136-C.g208_474-728_CIDRa1.8_      12.71%    passed     99.45%
+ 228  PF0514-C.g573_468-722_CIDRa1.8_      12.71%    passed     99.89%
+ 229  PT0048-C.g173_473-727_CIDRa1.8_      12.71%    passed     99.96%
+ 230  PT0130-C.g408_473-727_CIDRa1.8_      12.71%    passed     99.96%
+ 231  PT0193-C.g2280_473-727_CIDRa1.8_     12.71%    passed     99.96%
+ 232  PF0328-C.g215_473-727_CIDRa1.8_      12.71%    passed     99.38%
+ 233  PM0136-C.g259_473-727_CIDRa1.8_      12.71%    passed     99.38%
+ 234  QG0037-C.g4159_473-727_CIDRa1.8_     12.71%    passed     99.38%
+ 235  PF0787-C.g404_479-733_CIDRa1.8_      12.71%    passed     99.22%
+ 236  QM0027-C.g268_535-789_CIDRa1.8_      12.71%    passed     99.22%
+ 237  PM0063-C.g443_1137-1391_CIDRa1.8_    12.71%    passed     98.92%
+ 238  PH0327-C.g462_457-711_CIDRa1.8_      12.71%    passed     99.69%
+ 239  PV0014-C.g62_494-748_CIDRa1.8_       12.71%    passed     99.69%
+ 240  PV0017-C.g311_528-782_CIDRa1.8_      12.71%    passed     99.69%
+ 241  PV0259-C.g251_525-779_CIDRa1.8_      12.71%    passed     99.69%
+ 242  PV0329-C.g500_521-775_CIDRa1.8_      12.71%    passed     99.69%
+ 243  PV0015-C.g525_525-779_CIDRa1.8_      12.71%    passed     99.94%
+ 244  QP0010-C.g336_482-736_CIDRa1.8_      12.71%    passed     92.25%
+ 245  PE0119-C.g70_520-774_CIDRa1.8_       12.71%    passed     90.67%
+ 246  QG0021-C.g75_513-767_CIDRa1.8_       12.71%    passed     90.67%
+ 247  QG0167-C.g6097_507-761_CIDRa1.8_     12.71%    passed     90.67%
+ 248  PH0506-C.g310_479-733_CIDRa1.8_      12.71%    passed     99.59%
+ 249  PF0700-C.g1541_457-711_CIDRa1.8_     12.71%    passed    100.00%
+ 250  PD0462-C.g322_461-715_CIDRa1.8_      12.71%    passed     99.96%
+ 251  PV0309-C.g473_452-706_CIDRa1.8_      12.71%    passed     99.96%
+ 252  PD0512-C.g430_453-707_CIDRa1.8_      12.71%    passed     99.98%
+ 253  PF0488-C.g239_453-707_CIDRa1.8_      12.71%    passed     99.98%
+ 254  PF0693-C.g2064_453-707_CIDRa1.8_     12.71%    passed     99.98%
+ 255  PR0114-C.g842_453-707_CIDRa1.8_      12.71%    passed     99.98%
+ 256  PR0136-C.g504_453-707_CIDRa1.8_      12.71%    passed     99.98%
+ 257  PT0105-C.g884_453-707_CIDRa1.8_      12.71%    passed     99.98%
+ 258  PT0175-C.g1760_453-707_CIDRa1.8_     12.71%    passed     99.98%
+ 259  PT0277-C.g150_453-707_CIDRa1.8_      12.71%    passed     99.98%
+ 260  QC0184-C.g559_453-707_CIDRa1.8_      12.71%    passed     99.98%
+ 261  QC0185-C.g466_453-707_CIDRa1.8_      12.71%    passed     99.98%
+ 262  QC0196-C.g852_453-707_CIDRa1.8_      12.71%    passed     99.98%
+ 263  QC0176-C.g422_472-726_CIDRa1.8_      12.71%    passed     99.56%
+ 264  QC0183-C.g377_472-726_CIDRa1.8_      12.71%    passed     99.56%
+ 265  QC0189-C.g453_467-721_CIDRa1.8_      12.71%    passed     99.56%
+ 266  6816.g267_471-725_CIDRa1.8_          12.71%    passed     99.18%
+ 267  PF0422-C.g297_471-725_CIDRa1.8_      12.71%    passed     99.18%
+ 268  PT0149-C.g399_471-725_CIDRa1.8_      12.71%    passed     99.18%
+ 269  PT0246-C.g413_471-725_CIDRa1.8_      12.71%    passed     99.18%
+ 270  QG0262-C.g523_471-725_CIDRa1.8_      12.71%    passed     99.18%
+ 271  QG0172-C.g1783_480-734_CIDRa1.8_     12.71%    passed     99.94%
+ 272  SenT013.11.g86_432-686_CIDRa1.8_     12.71%    passed    100.00%
+ 273  PF0450-C.g320_470-724_CIDRa1.8_      12.71%    passed     99.95%
+ 274  PT0240-C.g362_476-730_CIDRa1.8_      12.71%    passed     99.95%
+ 275  PF0729-C.g425_458-712_CIDRa1.8_      12.71%    passed     98.24%
+ 276  QG0257-C.g1935_458-712_CIDRa1.8_     12.71%    passed     98.24%
+ 277  QG0259-C.g533_472-726_CIDRa1.8_      12.71%    passed     99.96%
+ 278  QG0083-C.g947_462-716_CIDRa1.8_      12.71%    passed     99.18%
+ 279  PF0314-C.g182_457-711_CIDRa1.8_      12.71%    passed     94.60%
+ 280  PT0145-C.g687_478-732_CIDRa1.8_      12.71%    passed     98.87%
+ 281  PT0225-C.g520_478-732_CIDRa1.8_      12.71%    passed     98.87%
+ 282  PT0188-Cx.g584_467-721_CIDRa1.8_     12.71%    passed     99.95%
+ 283  PA0014-C.g386_473-727_CIDRa1.8_      12.71%    passed     99.76%
+ 284  QG0032-C.g375_472-726_CIDRa1.8_      12.71%    passed     99.77%
+ 285  PF0045-C.g207_471-725_CIDRa1.8_      12.71%    passed    100.00%
+ 286  PF0106-C.g200_471-725_CIDRa1.8_      12.71%    passed    100.00%
+ 287  QG0064-C.g3057_471-725_CIDRa1.8_     12.71%    passed    100.00%
+ 288  PA0205-C.g310_461-715_CIDRa1.8_      12.71%    passed     99.93%
+ 289  PF0697-C.g146_453-707_CIDRa1.8_      12.71%    passed     99.72%
+ 290  PA0042-C.g203_471-725_CIDRa1.8_      12.71%    passed     99.96%
+ 291  PF0345-C.g4929_471-725_CIDRa1.8_     12.71%    passed     99.96%
+ 292  PE0125-C.g388_468-722_CIDRa1.8_      12.71%    passed     99.96%
+ 293  PH0362-C.g73_468-722_CIDRa1.8_       12.71%    passed     99.96%
+ 294  PV0082-C.g33_468-722_CIDRa1.8_       12.71%    passed     99.96%
+ 295  PV0271-C.g97_468-722_CIDRa1.8_       12.71%    passed     99.96%
+ 296  PH0063-C.g449_476-728_CIDRa1.8_      13.40%    passed     98.08%
+ 297  PH0133-CW.g132_489-741_CIDRa1.8_     13.40%    passed     98.08%
+ 298  PH0229-C.g22_494-746_CIDRa1.8_       13.40%    passed     98.08%
+ 299  PH0337-C.g390_489-741_CIDRa1.8_      13.40%    passed     98.08%
+ 300  PH0497-CW.g497_476-728_CIDRa1.8_     13.40%    passed     98.08%
+ 301  PH0516-C.g710_489-741_CIDRa1.8_      13.40%    passed     98.08%
+ 302  PH0586-C.g254_489-741_CIDRa1.8_      13.40%    passed     98.08%
+ 303  PH0603-C.g1905_489-741_CIDRa1.8_     13.40%    passed     98.08%
+ 304  PH0905-C.g477_476-728_CIDRa1.8_      13.40%    passed     98.08%
+ 305  PH0927-C.g491_489-741_CIDRa1.8_      13.40%    passed     98.08%
+ 306  QE0416-C.g995_469-721_CIDRa1.8_      13.40%    passed     98.08%
+ 307  QE0470-C.g572_489-741_CIDRa1.8_      13.40%    passed     98.08%
+ 308  QE0481-C.g523_469-721_CIDRa1.8_      13.40%    passed     98.08%
+ 309  PV0261-C.g32_448-700_CIDRa1.8_       13.40%    passed     99.88%
+ 310  PV0317-C.g352_448-700_CIDRa1.8_      13.40%    passed     99.88%
+ 311  PV0319-C.g327_448-700_CIDRa1.8_      13.40%    passed     99.88%
+ 312  QE0396-C.g324_478-730_CIDRa1.8_      13.40%    passed     99.33%
+ 313  PD0488-C.g441_480-732_CIDRa1.8_      13.40%    passed     99.23%
+ 314  PH0338-C.g410_480-732_CIDRa1.8_      13.40%    passed     99.23%
+ 315  PH0892-C.g51_480-732_CIDRa1.8_       13.40%    passed     99.23%
+ 316  PF0081-C.g77_464-716_CIDRa1.8_       13.40%    passed     90.39%
+ 317  SenT097.11.g664_464-716_CIDRa1.8_    13.40%    passed     90.39%
+ 318  SenT140.11.g1158_464-716_CIDRa1.8_   13.40%    passed     90.39%
+ 319  PF0102-C.g606_508-760_CIDRa1.8_      13.40%    passed     98.14%
+ 320  QG0297-C.g2299_478-730_CIDRa1.8_     13.40%    passed     98.14%
+ 321  PE0091-C.g354_529-781_CIDRa1.8_      13.40%    passed     99.13%
+ 322  PE0141-C.g277_533-785_CIDRa1.8_      13.40%    passed     99.13%
+ 323  PH0974-Cx.g557_465-717_CIDRa1.8_     13.40%    passed     98.91%
+ 324  PV0182-C.g24_449-701_CIDRa1.8_       13.40%    passed     99.10%
+ 325  QE0452-C.g428_455-707_CIDRa1.8_      13.40%    passed     99.86%
+ 326  PF0613-C.g2580_460-712_CIDRa1.8_     13.40%    passed     94.49%
+ 327  PF0629-C.g642_460-712_CIDRa1.8_      13.40%    passed     94.49%
+ 328  PT0029-C.g722_460-712_CIDRa1.8_      13.40%    passed     94.49%
+ 329  QE0439-C.g277_463-715_CIDRa1.8_      13.40%    passed     87.69%
+ 330  PH0305-C.g230_480-732_CIDRa1.8_      13.40%    passed     99.96%
+ 331  PH0647-C.g192_520-772_CIDRa1.8_      13.40%    passed     99.96%
+ 332  PR0116-C.g595_463-715_CIDRa1.8_      13.40%    passed     98.97%
+ 333  PH0973-C.g1079_531-783_CIDRa1.8_     13.40%    passed    100.00%
+ 334  PH0974-Cx.g323_531-783_CIDRa1.8_     13.40%    passed    100.00%
+ 335  QE0441-C.g617_531-783_CIDRa1.8_      13.40%    passed    100.00%
+ 336  PM0019-C.g1008_513-765_CIDRa1.8_     13.40%    passed     99.86%
+ 337  QP0228-C.g344_531-783_CIDRa1.8_      13.40%    passed     99.86%
+ 338  PM0083-C.g140_488-740_CIDRa1.8_      13.40%    passed     99.84%
+ 339  PM0147-C.g252_499-751_CIDRa1.8_      13.40%    passed     99.89%
+ 340  QP0153-C.g1848_535-787_CIDRa1.8_     13.40%    passed     99.90%
+ 341  PF0172-C.g213_536-788_CIDRa1.8_      13.40%    passed    100.00%
+ 342  PH0633-C.g343_545-797_CIDRa1.8_      13.40%    passed    100.00%
+ 343  PH0639-C.g305_545-797_CIDRa1.8_      13.40%    passed    100.00%
+ 344  PV0117-C.g37_503-755_CIDRa1.8_       13.40%    passed    100.00%
+ 345  PV0261-C.g29_487-739_CIDRa1.8_       13.40%    passed    100.00%
+ 346  PV0317-C.g308_500-752_CIDRa1.8_      13.40%    passed    100.00%
+ 347  PV0319-C.g257_500-752_CIDRa1.8_      13.40%    passed    100.00%
+ 348  QP0170-C.g845_455-703_CIDRa1.8_      14.78%    passed     99.93%
+ 349  PA0267-C.g346_464-712_CIDRa1.8_      14.78%    passed     99.98%
+ 350  PF0619-C.g1343_464-712_CIDRa1.8_     14.78%    passed     99.98%
+ 351  PT0091-C.g274_464-712_CIDRa1.8_      14.78%    passed     99.98%
+ 352  PT0119-C.g1642_464-712_CIDRa1.8_     14.78%    passed     99.98%
+ 353  QG0071-C.g385_464-712_CIDRa1.8_      14.78%    passed     99.98%
+ 354  PA0216-C.g1021_484-732_CIDRa1.8_     14.78%    passed     99.99%
+ 355  PF0653-C.g4037_479-727_CIDRa1.8_     14.78%    passed     99.97%
+ 356  PA0008-C.g987_466-721_CIDRa1.8_      12.37%    passed    100.00%
+ 357  PF0123-C.g293_466-721_CIDRa1.8_      12.37%    passed    100.00%
+ 358  PF0267-C.g212_466-721_CIDRa1.8_      12.37%    passed    100.00%
+ 359  PT0286-C.g7193_468-723_CIDRa1.8_     12.37%    passed    100.00%
+ 360  PH0352-C.g310_467-722_CIDRa1.8_      12.37%    passed    100.00%
+ 361  PH0357-C.g486_467-722_CIDRa1.8_      12.37%    passed    100.00%
+ 362  PH0640-C.g211_467-722_CIDRa1.8_      12.37%    passed    100.00%
+ 363  PH0780-C.g163_467-722_CIDRa1.8_      12.37%    passed    100.00%
+ 364  PR0040-CW.g599_467-722_CIDRa1.8_     12.37%    passed    100.00%
+ 365  PV0099-C.g68_467-722_CIDRa1.8_       12.37%    passed    100.00%
+ 366  QE0473-C.g13438_467-722_CIDRa1.8_    12.37%    passed    100.00%
+ 367  QG0150-C.g293_466-721_CIDRa1.8_      12.37%    passed     99.99%
+ 368  PV0028-C.g81_460-715_CIDRa1.8_       12.37%    passed     99.98%
+ 369  PV0343-C.g714_460-715_CIDRa1.8_      12.37%    passed     99.98%
+ 370  PA0153-C.g136_485-740_CIDRa1.8_      12.37%    passed     99.75%
+ 371  PF0178-C.g438_471-726_CIDRa1.8_      12.37%    passed     99.99%
+ 372  PF0617-C.g309_471-726_CIDRa1.8_      12.37%    passed     99.99%
+ 373  PF0689-C.g287_474-729_CIDRa1.8_      12.37%    passed     99.99%
+ 374  PM0117-C.g117_478-733_CIDRa1.8_      12.37%    passed     99.99%
+ 375  PF0301-C.g233_457-712_CIDRa1.8_      12.37%    passed     99.94%
+ 376  QG0007-C.g205_522-777_CIDRa1.8_      12.37%    passed     99.89%
+ 377  3D7-0600200_453-708_CIDRa1.8_        12.37%    passed    100.00%
+ 378  PT0069-C.g1931_453-708_CIDRa1.8_     12.37%    passed    100.00%
+ 379  QG0012-C.g541_458-713_CIDRa1.8_      12.37%    passed     99.99%
+ 380  PF0298-C.g198_478-733_CIDRa1.8_      12.37%    passed    100.00%
+ 381  PT0062-C.g826_363-618_CIDRa1.8_      12.37%    passed     99.98%
+ 382  QG0178-C.g4412_461-716_CIDRa1.8_     12.37%    passed     99.98%
+ 383  PM0064-C.g184_458-710_CIDRa1.8_      13.40%    passed     95.37%
+ 384  PM0084-C.g485_458-710_CIDRa1.8_      13.40%    passed     95.37%
+ 385  PA0184-C.g300_517-768_CIDRa1.8_      13.75%    passed     98.91%
+ 386  PF0163-C.g948_517-768_CIDRa1.8_      13.75%    passed     98.91%
+ 387  PK0009-C.g846_523-774_CIDRa1.8_      13.75%    passed     98.81%
+ 388  PD0882-C.g958_467-718_CIDRa1.8_      13.75%    passed     82.63%
+ 389  PT0008-CW.g546_453-704_CIDRa1.8_     13.75%    passed     98.84%
+ 390  PD0513-C.g344_458-709_CIDRa1.8_      13.75%    passed     99.96%
+ 391  PD0548-C.g520_458-709_CIDRa1.8_      13.75%    passed     99.96%
+ 392  PD0746-C.g358_458-709_CIDRa1.8_      13.75%    passed     99.96%
+ 393  PH0370-C.g240_457-708_CIDRa1.8_      13.75%    passed     99.96%
+ 394  PV0306-C.g506_457-708_CIDRa1.8_      13.75%    passed     99.96%
+ 395  PH0333-C.g476_450-701_CIDRa1.8_      13.75%    passed     95.15%
+ 396  PV0046-C.g10_450-701_CIDRa1.8_       13.75%    passed     95.15%
+ 397  PV0289-C.g324_450-701_CIDRa1.8_      13.75%    passed     95.15%
+ 398  PV0314-C.g490_450-701_CIDRa1.8_      13.75%    passed     95.15%
+ 399  PV0323-C.g505_450-701_CIDRa1.8_      13.75%    passed     95.15%
+ 400  PV0326-C.g438_450-701_CIDRa1.8_      13.75%    passed     95.15%
+ 401  QE0424-C.g213_450-701_CIDRa1.8_      13.75%    passed     95.15%
+ 402  PR0148-C.g654_456-707_CIDRa1.8_      13.75%    passed     99.94%
+ 403  PR0153-C.g512_456-707_CIDRa1.8_      13.75%    passed     99.94%
+ 404  CD01-040005300_459-712_CIDRa1.8_     13.06%    passed     95.64%
+ 405  PT0064-C.g356_458-711_CIDRa1.8_      13.06%    passed     79.83%
+ 406  PT0289-C.g792_458-711_CIDRa1.8_      13.06%    passed     79.83%
+ 407  PD0883-C.g827_466-719_CIDRa1.8_      13.06%    passed     98.39%
+ 408  PD0894-C.g141_466-719_CIDRa1.8_      13.06%    passed     98.39%
+ 409  PT0053-C.g393_461-714_CIDRa1.8_      13.06%    passed     99.98%
+ 410  PT0148-C.g4830_429-682_CIDRa1.8_     13.06%    passed     99.98%
+ 411  PC0051-C.g137_364-617_CIDRa1.8_      13.06%    passed     98.58%
+ 412  PF0732-C.g731_458-711_CIDRa1.8_      13.06%    passed     91.53%
+ 413  PA0036-C.g203_477-730_CIDRa1.8_      13.06%    passed     85.06%
+ 414  PT0032-C.g1173_461-714_CIDRa1.8_     13.06%    passed     81.74%
+ 415  PF0614-C.g1308_460-707_CIDRa1.8_     15.12%    passed     99.97%
+ 416  PT0101-C.g142_462-709_CIDRa1.8_      15.12%    passed    100.00%
+ 417  PF0453-C.g583_475-728_CIDRa1.8_      13.06%    passed     98.87%
+ 418  PF0499-C.g665_475-728_CIDRa1.8_      13.06%    passed     98.87%
+ 419  PV0127-C.g41_473-726_CIDRa1.8_       13.06%    passed     99.91%
+ 420  PV0211-C.g71_473-726_CIDRa1.8_       13.40%    passed     99.91%
+ 421  PA0193-C.g219_466-719_CIDRa1.8_      13.06%    passed     99.53%
+ 422  QM0011-C.g581_466-719_CIDRa1.8_      13.06%    passed     99.53%
+ 423  PD0592-C.g1244_487-740_CIDRa1.8_     13.06%    passed     99.83%
+ 424  QC0170-C.g935_487-740_CIDRa1.8_      13.06%    passed     99.83%
+ 425  QP0170-C.g603_487-740_CIDRa1.8_      13.06%    passed     99.80%
+ 426  PF0010-C.g749_467-720_CIDRa1.8_      13.06%    passed     99.98%
+ 427  QG0120-C.g3776_467-720_CIDRa1.8_     13.06%    passed     99.98%
+ 428  PH0473-C.g311_474-727_CIDRa1.8_      13.06%    passed     99.95%
+ 429  PV0271-C.g562_474-727_CIDRa1.8_      13.06%    passed     99.95%
+ 430  PF0489-C.g470_479-732_CIDRa1.8_      13.06%    passed     99.97%
+ 431  QP0007-C.g5177_479-732_CIDRa1.8_     13.06%    passed     99.97%
+ 432  PT0091-C.g301_458-711_CIDRa1.8_      13.06%    passed     99.94%
+ 433  QG0144-C.g4154_458-711_CIDRa1.8_     13.06%    passed     99.94%
+ 434  PR0125-C.g4089_456-709_CIDRa1.8_     13.06%    passed    100.00%
+ 435  PT0139-C.g604_485-738_CIDRa1.8_      13.06%    passed    100.00%
+ 436  QP0080-C.g384_485-738_CIDRa1.8_      13.06%    passed    100.00%
+ 437  PE0132-C.g631_477-730_CIDRa1.8_      13.06%    passed     99.89%
+ 438  PF0144-C.g1047_477-730_CIDRa1.8_     13.06%    passed     99.89%
+ 439  PH1147-C.g133_485-738_CIDRa1.8_      13.06%    passed     99.88%
+ 440  PH1160-C.g618_485-738_CIDRa1.8_      13.06%    passed     99.88%
+ 441  PH1164-C.g662_485-738_CIDRa1.8_      13.06%    passed     99.88%
+ 442  QP0099-C.g439_462-715_CIDRa1.8_      13.06%    passed     99.88%
+ 443  PF0467-C.g142_465-718_CIDRa1.8_      13.06%    passed     99.23%
+ 444  QG0053-C.g2361_540-793_CIDRa1.8_     13.06%    passed     99.23%
+ 445  QG0114-C.g2720_473-726_CIDRa1.8_     13.06%    passed     99.99%
+ 446  PF0587-C.g1028_464-717_CIDRa1.8_     13.06%    passed     99.89%
+ 447  PF0635-C.g1933_468-721_CIDRa1.8_     13.06%    passed     98.44%
+ 448  PA0234-C.g1331_472-725_CIDRa1.8_     13.06%    passed     98.95%
+ 449  PV0183-C.g27_477-730_CIDRa1.8_       13.06%    passed     99.98%
+ 450  PF0369-C.g166_466-720_CIDRa1.8_      12.71%    passed     99.29%
+ 451  SenT036.10.g703_492-746_CIDRa1.8_    12.71%    passed     99.86%
+ 452  SenT086.10.g1111_492-746_CIDRa1.8_   12.71%    passed     99.86%
+ 453  SenT142.11.g1056_492-746_CIDRa1.8_   12.71%    passed     99.86%
+ 454  PD0521-C.g350_478-732_CIDRa1.8_      12.71%    passed     99.99%
+ 455  PD0523-C.g398_478-732_CIDRa1.8_      12.71%    passed     99.99%
+ 456  PT0016-CW.g554_478-732_CIDRa1.8_     12.71%    passed     99.99%
+ 457  PT0295-Cx.g154_478-732_CIDRa1.8_     12.71%    passed     99.99%
+ 458  QP0100-C.g678_478-732_CIDRa1.8_      12.71%    passed     99.99%
+ 459  QP0149-C.g20077_478-732_CIDRa1.8_    12.71%    passed     99.99%
+ 460  PF0148-C.g465_521-775_CIDRa1.8_      12.71%    passed     99.98%
+ 461  PF0823-C.g1102_478-732_CIDRa1.8_     12.71%    passed     99.98%
+ 462  QG0200-C.g213_477-731_CIDRa1.8_      12.71%    passed     99.98%
+ 463  QG0236-C.g2343_521-775_CIDRa1.8_     12.71%    passed     99.98%
+ 464  QP0151-C.g20968_478-732_CIDRa1.8_    12.71%    passed     99.98%
+ 465  PT0065-C.g1339_488-742_CIDRa1.8_     12.71%    passed     99.70%
+ 466  PT0126-C.g597_488-742_CIDRa1.8_      12.71%    passed     99.70%
+ 467  QP0042-C.g725_488-742_CIDRa1.8_      12.71%    passed     99.70%
+ 468  PM0123-C.g310_473-727_CIDRa1.8_      12.71%    passed     99.94%
+ 469  PF0811-C.g176_471-725_CIDRa1.8_      12.71%    passed     99.91%
+ 470  PT0032-C.g501_467-721_CIDRa1.8_      12.71%    passed    100.00%
+ 471  PA0191-C.g1103_471-723_CIDRa1.8_     13.40%    passed     99.68%
+ 472  PT0282-Cx.g1690_489-739_CIDRa1.8_    14.09%    passed     84.96%
+ 473  PE0121-C.g179_469-719_CIDRa1.8_      14.09%    passed     95.30%
+ 474  PF0024-C.g629_469-719_CIDRa1.8_      14.09%    passed     95.30%
+ 475  PT0029-C.g264_485-735_CIDRa1.8_      14.09%    passed     98.37%
+ 476  QG0286-C.g3121_484-734_CIDRa1.8_     14.09%    passed     98.37%
+****  TOTAL                                12.52%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: PH0343-C.g239_485-752_CIDRa1.8_ is identical to PH0342-C.g251_485-752_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QE0443-C.g294_485-745_CIDRa1.8_ is identical to QE0401-C.g433_485-745_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0722-C.g234_486-761_CIDRa1.8_ is identical to PF0129-C.g70_486-761_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QE0422-C.g377_487-760_CIDRa1.8_ is identical to QE0414-C.g420_487-760_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PD0817-C.g749_489-762_CIDRa1.8_ is identical to PD0816-C.g23_489-762_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QG0208-C.g179_479-755_CIDRa1.8_ is identical to PT0003-CW.g720_479-755_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PT0205-C.g655_461-728_CIDRa1.8_ is identical to PT0075-C.g1080_487-754_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PA0202-C.g365_468-721_CIDRa1.8_ is identical to PA0177-C.g838_468-721_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0432-C.g607_468-721_CIDRa1.8_ is identical to PF0123-C.g110_468-721_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0052-C.g198_470-723_CIDRa1.8_ is identical to PA0210-C.g1033_470-723_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QE0425-C.g1008_470-723_CIDRa1.8_ is identical to PV0298-C.g24_470-723_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0169-C.g849_492-745_CIDRa1.8_ is identical to PA0270-C.g383_492-745_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PT0240-C.g375_482-735_CIDRa1.8_ is identical to PF0281-C.g468_482-735_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QE0433-C.g335_470-723_CIDRa1.8_ is identical to PD0585-C.g720_470-723_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QG0240-C.g2450_468-721_CIDRa1.8_ is identical to PE0117-C.g342_468-721_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PH0647-C.g380_470-723_CIDRa1.8_ is identical to PH0631-C.g469_470-723_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PE0091-C.g380_478-731_CIDRa1.8_ is identical to PA0014-C.g365_479-732_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0066-C.g155_461-714_CIDRa1.8_ is identical to PA0256-C.g410_461-714_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PD0728-C.g66_460-713_CIDRa1.8_ is identical to PD0722-C.g147_454-707_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PD0536-C.g14_479-732_CIDRa1.8_ is identical to PD0494-C.g71_479-732_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QG0098-C.g118_482-735_CIDRa1.8_ is identical to PT0273-C.g3632_336-589_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PR0162-C.g859_475-728_CIDRa1.8_ is identical to PR0131-C.g3814_475-728_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0122-C.g160_481-734_CIDRa1.8_ is identical to PA0014-C.g292_471-724_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PM0019-C.g738_485-738_CIDRa1.8_ is identical to PE0141-C.g378_485-738_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0195-C.g421_457-712_CIDRa1.8_ is identical to PE0138-C.g116_457-712_CIDRa1.8_ but kept for subsequent analysis
+NOTE: SenT094.09.g954_483-737_CIDRa1.8_ is identical to PF0408-C.g549_483-737_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PH0603-C.g1771_470-724_CIDRa1.8_ is identical to PH0511-C.g107_470-724_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PR0129-C.g448_466-720_CIDRa1.8_ is identical to PF0156-C.g255_464-718_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QG0234-C.g2635_461-715_CIDRa1.8_ is identical to PE0126-C.g444_461-715_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PD0555-C.g365_482-736_CIDRa1.8_ is identical to PD0493-C.g657_480-734_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PA0021-C.g246_477-731_CIDRa1.8_ is identical to PA0007-C.g26_477-731_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PT0130-C.g408_473-727_CIDRa1.8_ is identical to PT0048-C.g173_473-727_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PM0136-C.g259_473-727_CIDRa1.8_ is identical to PF0328-C.g215_473-727_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QM0027-C.g268_535-789_CIDRa1.8_ is identical to PF0787-C.g404_479-733_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PV0014-C.g62_494-748_CIDRa1.8_ is identical to PH0327-C.g462_457-711_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QG0021-C.g75_513-767_CIDRa1.8_ is identical to PE0119-C.g70_520-774_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PV0309-C.g473_452-706_CIDRa1.8_ is identical to PD0462-C.g322_461-715_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0488-C.g239_453-707_CIDRa1.8_ is identical to PD0512-C.g430_453-707_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QC0183-C.g377_472-726_CIDRa1.8_ is identical to QC0176-C.g422_472-726_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0422-C.g297_471-725_CIDRa1.8_ is identical to 6816.g267_471-725_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PT0240-C.g362_476-730_CIDRa1.8_ is identical to PF0450-C.g320_470-724_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QG0257-C.g1935_458-712_CIDRa1.8_ is identical to PF0729-C.g425_458-712_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PT0225-C.g520_478-732_CIDRa1.8_ is identical to PT0145-C.g687_478-732_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0106-C.g200_471-725_CIDRa1.8_ is identical to PF0045-C.g207_471-725_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0345-C.g4929_471-725_CIDRa1.8_ is identical to PA0042-C.g203_471-725_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PH0362-C.g73_468-722_CIDRa1.8_ is identical to PE0125-C.g388_468-722_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PH0133-CW.g132_489-741_CIDRa1.8_ is identical to PH0063-C.g449_476-728_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PV0317-C.g352_448-700_CIDRa1.8_ is identical to PV0261-C.g32_448-700_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PH0338-C.g410_480-732_CIDRa1.8_ is identical to PD0488-C.g441_480-732_CIDRa1.8_ but kept for subsequent analysis
+NOTE: SenT097.11.g664_464-716_CIDRa1.8_ is identical to PF0081-C.g77_464-716_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QG0297-C.g2299_478-730_CIDRa1.8_ is identical to PF0102-C.g606_508-760_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PE0141-C.g277_533-785_CIDRa1.8_ is identical to PE0091-C.g354_529-781_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0629-C.g642_460-712_CIDRa1.8_ is identical to PF0613-C.g2580_460-712_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PH0647-C.g192_520-772_CIDRa1.8_ is identical to PH0305-C.g230_480-732_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PH0974-Cx.g323_531-783_CIDRa1.8_ is identical to PH0973-C.g1079_531-783_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QP0228-C.g344_531-783_CIDRa1.8_ is identical to PM0019-C.g1008_513-765_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PH0639-C.g305_545-797_CIDRa1.8_ is identical to PH0633-C.g343_545-797_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0619-C.g1343_464-712_CIDRa1.8_ is identical to PA0267-C.g346_464-712_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0123-C.g293_466-721_CIDRa1.8_ is identical to PA0008-C.g987_466-721_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PH0357-C.g486_467-722_CIDRa1.8_ is identical to PH0352-C.g310_467-722_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PV0343-C.g714_460-715_CIDRa1.8_ is identical to PV0028-C.g81_460-715_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0617-C.g309_471-726_CIDRa1.8_ is identical to PF0178-C.g438_471-726_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PT0069-C.g1931_453-708_CIDRa1.8_ is identical to 3D7-0600200_453-708_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QG0178-C.g4412_461-716_CIDRa1.8_ is identical to PT0062-C.g826_363-618_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PM0084-C.g485_458-710_CIDRa1.8_ is identical to PM0064-C.g184_458-710_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0163-C.g948_517-768_CIDRa1.8_ is identical to PA0184-C.g300_517-768_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PD0548-C.g520_458-709_CIDRa1.8_ is identical to PD0513-C.g344_458-709_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PV0046-C.g10_450-701_CIDRa1.8_ is identical to PH0333-C.g476_450-701_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PR0153-C.g512_456-707_CIDRa1.8_ is identical to PR0148-C.g654_456-707_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PT0289-C.g792_458-711_CIDRa1.8_ is identical to PT0064-C.g356_458-711_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PD0894-C.g141_466-719_CIDRa1.8_ is identical to PD0883-C.g827_466-719_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PT0148-C.g4830_429-682_CIDRa1.8_ is identical to PT0053-C.g393_461-714_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0499-C.g665_475-728_CIDRa1.8_ is identical to PF0453-C.g583_475-728_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QM0011-C.g581_466-719_CIDRa1.8_ is identical to PA0193-C.g219_466-719_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QC0170-C.g935_487-740_CIDRa1.8_ is identical to PD0592-C.g1244_487-740_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QG0120-C.g3776_467-720_CIDRa1.8_ is identical to PF0010-C.g749_467-720_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PV0271-C.g562_474-727_CIDRa1.8_ is identical to PH0473-C.g311_474-727_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QP0007-C.g5177_479-732_CIDRa1.8_ is identical to PF0489-C.g470_479-732_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QG0144-C.g4154_458-711_CIDRa1.8_ is identical to PT0091-C.g301_458-711_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QP0080-C.g384_485-738_CIDRa1.8_ is identical to PT0139-C.g604_485-738_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0144-C.g1047_477-730_CIDRa1.8_ is identical to PE0132-C.g631_477-730_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PH1160-C.g618_485-738_CIDRa1.8_ is identical to PH1147-C.g133_485-738_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QG0053-C.g2361_540-793_CIDRa1.8_ is identical to PF0467-C.g142_465-718_CIDRa1.8_ but kept for subsequent analysis
+NOTE: SenT086.10.g1111_492-746_CIDRa1.8_ is identical to SenT036.10.g703_492-746_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PD0523-C.g398_478-732_CIDRa1.8_ is identical to PD0521-C.g350_478-732_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0823-C.g1102_478-732_CIDRa1.8_ is identical to PF0148-C.g465_521-775_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PT0126-C.g597_488-742_CIDRa1.8_ is identical to PT0065-C.g1339_488-742_CIDRa1.8_ but kept for subsequent analysis
+NOTE: PF0024-C.g629_469-719_CIDRa1.8_ is identical to PE0121-C.g179_469-719_CIDRa1.8_ but kept for subsequent analysis
+NOTE: QG0286-C.g3121_484-734_CIDRa1.8_ is identical to PT0029-C.g264_485-735_CIDRa1.8_ but kept for subsequent analysis
+NOTE: 181 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: PH0344-C.g258_485-752_CIDRa1.8_ (identical to PH0342-C.g251_485-752_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0349-C.g260_485-752_CIDRa1.8_ (identical to PH0342-C.g251_485-752_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0354-C.g186_485-752_CIDRa1.8_ (identical to PH0342-C.g251_485-752_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0849-C.g600_485-752_CIDRa1.8_ (identical to PH0342-C.g251_485-752_CIDRa1.8_) is ignored but added at the end
+NOTE: TM180var1_485-752_CIDRa1.8_ (identical to PH0342-C.g251_485-752_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0280-C.g7425_493-768_CIDRa1.8_ (identical to PF0129-C.g70_486-761_CIDRa1.8_) is ignored but added at the end
+NOTE: PD0827-C.g544_489-762_CIDRa1.8_ (identical to PD0816-C.g23_489-762_CIDRa1.8_) is ignored but added at the end
+NOTE: PF0427-C.g237_468-721_CIDRa1.8_ (identical to PA0177-C.g838_468-721_CIDRa1.8_) is ignored but added at the end
+NOTE: PM0034-C.g3066_468-721_CIDRa1.8_ (identical to PA0177-C.g838_468-721_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0142-C.g1113_468-721_CIDRa1.8_ (identical to PF0123-C.g110_468-721_CIDRa1.8_) is ignored but added at the end
+NOTE: QP0055-C.g281_492-745_CIDRa1.8_ (identical to PA0270-C.g383_492-745_CIDRa1.8_) is ignored but added at the end
+NOTE: PF0347-C.g566_478-731_CIDRa1.8_ (identical to PA0014-C.g365_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PF0777-C.g1128_433-686_CIDRa1.8_ (identical to PA0014-C.g365_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PR0118-C.g222_479-732_CIDRa1.8_ (identical to PA0014-C.g365_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PR0155-C.g156_479-732_CIDRa1.8_ (identical to PA0014-C.g365_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: QM0011-C.g736_478-731_CIDRa1.8_ (identical to PA0014-C.g365_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: QP0068-C.g357_479-732_CIDRa1.8_ (identical to PA0014-C.g365_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: SenT002.07.g1587_479-732_CIDRa1.8_ (identical to PA0014-C.g365_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PD0733-C.g53_460-713_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PD0748-C.g72_454-707_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PD0750-C.g1051_452-705_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PD0758-C.g107_460-713_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PD0776-C.g223_460-713_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PD0790-C.g144_461-714_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PD0848-C.g87_460-713_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0059-C.g282_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0211-C.g24_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0322-C.g207_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0341-C.g227_495-748_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0494-CW.g495_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0520-C.g549_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0964-Cx.g208_462-715_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PH1188-C.g82_453-706_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PH1253-C.g192_462-715_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0018-C.g116_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0084-C.g1_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0249-Cx.g66_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0252-C.g466_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0264-C.g560_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0270-C.g413_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0272-C.g333_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0280-C.g159_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0304-C.g472_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0305-C.g213_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0358-C.g273_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QC0205-C.g568_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QC0213-C.g256_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QC0220-C.g209_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QC0222-C.g296_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0423-C.g473_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0432-C.g901_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0436-C.g196_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0456-C.g364_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0458-C.g251_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0460-C.g44_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0463-C.g60_496-749_CIDRa1.8_ (identical to PD0722-C.g147_454-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0131-CW.g91_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0134-C.g109_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0224-C.g11_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0353-C.g127_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0469-CW.g399_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0485-C.g112_451-704_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0534-C.g187_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0634-C.g201_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0819-C.g554_364-617_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0820-C.g626_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0823-C.g591_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0826-C.g559_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0828-C.g469_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0833-C.g819_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0847-C.g681_396-649_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0854-C.g470_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0855-C.g646_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0888-C.g329_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0889-C.g744_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0890-C.g829_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0893-C.g12833_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0894-C.g635_410-663_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0899-C.g471_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0900-C.g585_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0901-C.g801_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0907-C.g899_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0908-C.g880_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0910-C.g439_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0911-Cx.g429_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0915-C.g31_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0916-C.g1006_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0984-C.g259_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0989-C.g446_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0990-C.g1891_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0991-C.g1046_488-741_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH1001-C.g958_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH1002-C.g1759_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH1105-C.g1363_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH1136-C.g324_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH1153-C.g195_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PH1218-C.g857_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0017-C.g327_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0035-C.g4_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0046-C.g29_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0464-C.g520_479-732_CIDRa1.8_ (identical to PD0494-C.g71_479-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PR0166-C.g211_475-728_CIDRa1.8_ (identical to PR0131-C.g3814_475-728_CIDRa1.8_) is ignored but added at the end
+NOTE: PF0255-C.g159_481-734_CIDRa1.8_ (identical to PA0014-C.g292_471-724_CIDRa1.8_) is ignored but added at the end
+NOTE: PF0445-C.g169_481-734_CIDRa1.8_ (identical to PA0014-C.g292_471-724_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0339-C.g320_481-734_CIDRa1.8_ (identical to PA0014-C.g292_471-724_CIDRa1.8_) is ignored but added at the end
+NOTE: QG0106-C.g531_472-725_CIDRa1.8_ (identical to PA0014-C.g292_471-724_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0220-C.g461_457-712_CIDRa1.8_ (identical to PE0138-C.g116_457-712_CIDRa1.8_) is ignored but added at the end
+NOTE: QP0178-C.g515_457-712_CIDRa1.8_ (identical to PE0138-C.g116_457-712_CIDRa1.8_) is ignored but added at the end
+NOTE: PD0755-C.g150_482-736_CIDRa1.8_ (identical to PD0493-C.g657_480-734_CIDRa1.8_) is ignored but added at the end
+NOTE: PA0027-C.g797_377-631_CIDRa1.8_ (identical to PA0007-C.g26_477-731_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0193-C.g2280_473-727_CIDRa1.8_ (identical to PT0048-C.g173_473-727_CIDRa1.8_) is ignored but added at the end
+NOTE: QG0037-C.g4159_473-727_CIDRa1.8_ (identical to PF0328-C.g215_473-727_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0017-C.g311_528-782_CIDRa1.8_ (identical to PH0327-C.g462_457-711_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0259-C.g251_525-779_CIDRa1.8_ (identical to PH0327-C.g462_457-711_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0329-C.g500_521-775_CIDRa1.8_ (identical to PH0327-C.g462_457-711_CIDRa1.8_) is ignored but added at the end
+NOTE: QG0167-C.g6097_507-761_CIDRa1.8_ (identical to PE0119-C.g70_520-774_CIDRa1.8_) is ignored but added at the end
+NOTE: PF0693-C.g2064_453-707_CIDRa1.8_ (identical to PD0512-C.g430_453-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PR0114-C.g842_453-707_CIDRa1.8_ (identical to PD0512-C.g430_453-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PR0136-C.g504_453-707_CIDRa1.8_ (identical to PD0512-C.g430_453-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0105-C.g884_453-707_CIDRa1.8_ (identical to PD0512-C.g430_453-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0175-C.g1760_453-707_CIDRa1.8_ (identical to PD0512-C.g430_453-707_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0277-C.g150_453-707_CIDRa1.8_ (identical to PD0512-C.g430_453-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QC0184-C.g559_453-707_CIDRa1.8_ (identical to PD0512-C.g430_453-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QC0185-C.g466_453-707_CIDRa1.8_ (identical to PD0512-C.g430_453-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QC0196-C.g852_453-707_CIDRa1.8_ (identical to PD0512-C.g430_453-707_CIDRa1.8_) is ignored but added at the end
+NOTE: QC0189-C.g453_467-721_CIDRa1.8_ (identical to QC0176-C.g422_472-726_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0149-C.g399_471-725_CIDRa1.8_ (identical to 6816.g267_471-725_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0246-C.g413_471-725_CIDRa1.8_ (identical to 6816.g267_471-725_CIDRa1.8_) is ignored but added at the end
+NOTE: QG0262-C.g523_471-725_CIDRa1.8_ (identical to 6816.g267_471-725_CIDRa1.8_) is ignored but added at the end
+NOTE: QG0064-C.g3057_471-725_CIDRa1.8_ (identical to PF0045-C.g207_471-725_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0082-C.g33_468-722_CIDRa1.8_ (identical to PE0125-C.g388_468-722_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0271-C.g97_468-722_CIDRa1.8_ (identical to PE0125-C.g388_468-722_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0229-C.g22_494-746_CIDRa1.8_ (identical to PH0063-C.g449_476-728_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0337-C.g390_489-741_CIDRa1.8_ (identical to PH0063-C.g449_476-728_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0497-CW.g497_476-728_CIDRa1.8_ (identical to PH0063-C.g449_476-728_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0516-C.g710_489-741_CIDRa1.8_ (identical to PH0063-C.g449_476-728_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0586-C.g254_489-741_CIDRa1.8_ (identical to PH0063-C.g449_476-728_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0603-C.g1905_489-741_CIDRa1.8_ (identical to PH0063-C.g449_476-728_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0905-C.g477_476-728_CIDRa1.8_ (identical to PH0063-C.g449_476-728_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0927-C.g491_489-741_CIDRa1.8_ (identical to PH0063-C.g449_476-728_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0416-C.g995_469-721_CIDRa1.8_ (identical to PH0063-C.g449_476-728_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0470-C.g572_489-741_CIDRa1.8_ (identical to PH0063-C.g449_476-728_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0481-C.g523_469-721_CIDRa1.8_ (identical to PH0063-C.g449_476-728_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0319-C.g327_448-700_CIDRa1.8_ (identical to PV0261-C.g32_448-700_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0892-C.g51_480-732_CIDRa1.8_ (identical to PD0488-C.g441_480-732_CIDRa1.8_) is ignored but added at the end
+NOTE: SenT140.11.g1158_464-716_CIDRa1.8_ (identical to PF0081-C.g77_464-716_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0029-C.g722_460-712_CIDRa1.8_ (identical to PF0613-C.g2580_460-712_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0441-C.g617_531-783_CIDRa1.8_ (identical to PH0973-C.g1079_531-783_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0117-C.g37_503-755_CIDRa1.8_ (identical to PH0633-C.g343_545-797_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0261-C.g29_487-739_CIDRa1.8_ (identical to PH0633-C.g343_545-797_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0317-C.g308_500-752_CIDRa1.8_ (identical to PH0633-C.g343_545-797_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0319-C.g257_500-752_CIDRa1.8_ (identical to PH0633-C.g343_545-797_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0091-C.g274_464-712_CIDRa1.8_ (identical to PA0267-C.g346_464-712_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0119-C.g1642_464-712_CIDRa1.8_ (identical to PA0267-C.g346_464-712_CIDRa1.8_) is ignored but added at the end
+NOTE: QG0071-C.g385_464-712_CIDRa1.8_ (identical to PA0267-C.g346_464-712_CIDRa1.8_) is ignored but added at the end
+NOTE: PF0267-C.g212_466-721_CIDRa1.8_ (identical to PA0008-C.g987_466-721_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0640-C.g211_467-722_CIDRa1.8_ (identical to PH0352-C.g310_467-722_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0780-C.g163_467-722_CIDRa1.8_ (identical to PH0352-C.g310_467-722_CIDRa1.8_) is ignored but added at the end
+NOTE: PR0040-CW.g599_467-722_CIDRa1.8_ (identical to PH0352-C.g310_467-722_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0099-C.g68_467-722_CIDRa1.8_ (identical to PH0352-C.g310_467-722_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0473-C.g13438_467-722_CIDRa1.8_ (identical to PH0352-C.g310_467-722_CIDRa1.8_) is ignored but added at the end
+NOTE: PF0689-C.g287_474-729_CIDRa1.8_ (identical to PF0178-C.g438_471-726_CIDRa1.8_) is ignored but added at the end
+NOTE: PM0117-C.g117_478-733_CIDRa1.8_ (identical to PF0178-C.g438_471-726_CIDRa1.8_) is ignored but added at the end
+NOTE: PD0746-C.g358_458-709_CIDRa1.8_ (identical to PD0513-C.g344_458-709_CIDRa1.8_) is ignored but added at the end
+NOTE: PH0370-C.g240_457-708_CIDRa1.8_ (identical to PD0513-C.g344_458-709_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0306-C.g506_457-708_CIDRa1.8_ (identical to PD0513-C.g344_458-709_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0289-C.g324_450-701_CIDRa1.8_ (identical to PH0333-C.g476_450-701_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0314-C.g490_450-701_CIDRa1.8_ (identical to PH0333-C.g476_450-701_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0323-C.g505_450-701_CIDRa1.8_ (identical to PH0333-C.g476_450-701_CIDRa1.8_) is ignored but added at the end
+NOTE: PV0326-C.g438_450-701_CIDRa1.8_ (identical to PH0333-C.g476_450-701_CIDRa1.8_) is ignored but added at the end
+NOTE: QE0424-C.g213_450-701_CIDRa1.8_ (identical to PH0333-C.g476_450-701_CIDRa1.8_) is ignored but added at the end
+NOTE: PH1164-C.g662_485-738_CIDRa1.8_ (identical to PH1147-C.g133_485-738_CIDRa1.8_) is ignored but added at the end
+NOTE: SenT142.11.g1056_492-746_CIDRa1.8_ (identical to SenT036.10.g703_492-746_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0016-CW.g554_478-732_CIDRa1.8_ (identical to PD0521-C.g350_478-732_CIDRa1.8_) is ignored but added at the end
+NOTE: PT0295-Cx.g154_478-732_CIDRa1.8_ (identical to PD0521-C.g350_478-732_CIDRa1.8_) is ignored but added at the end
+NOTE: QP0100-C.g678_478-732_CIDRa1.8_ (identical to PD0521-C.g350_478-732_CIDRa1.8_) is ignored but added at the end
+NOTE: QP0149-C.g20077_478-732_CIDRa1.8_ (identical to PD0521-C.g350_478-732_CIDRa1.8_) is ignored but added at the end
+NOTE: QG0200-C.g213_477-731_CIDRa1.8_ (identical to PF0148-C.g465_521-775_CIDRa1.8_) is ignored but added at the end
+NOTE: QG0236-C.g2343_521-775_CIDRa1.8_ (identical to PF0148-C.g465_521-775_CIDRa1.8_) is ignored but added at the end
+NOTE: QP0151-C.g20968_478-732_CIDRa1.8_ (identical to PF0148-C.g465_521-775_CIDRa1.8_) is ignored but added at the end
+NOTE: QP0042-C.g725_488-742_CIDRa1.8_ (identical to PT0065-C.g1339_488-742_CIDRa1.8_) is ignored but added at the end
+Alignment was printed to DC8_CIDRa1.8_wholeseq.aligned.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to DC8_CIDRa1.8_wholeseq.aligned.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.078 seconds
+
+NOTE: 125 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -18995.807
+2. Current log-likelihood: -18888.943
+3. Current log-likelihood: -18887.109
+4. Current log-likelihood: -18887.004
+Optimal log-likelihood: -18886.950
+Proportion of invariable sites: 0.138
+Site proportion and rates:  (0.086,0.099) (0.070,0.176) (0.079,0.373) (0.079,0.408) (0.078,0.751) (0.087,0.823) (0.108,1.372) (0.131,1.436) (0.115,2.644) (0.028,5.227)
+Parameters optimization took 4 rounds (9.990 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 3.44938 secs using 779.5% CPU
+Computing ML distances took 3.449809 sec (of wall-clock time) 26.887420 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000782861 secs using 397.9% CPU
+Computing RapidNJ tree took 0.251992 sec (of wall-clock time) 0.203447 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -19335.425
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 9.827 second
+Computing log-likelihood of 98 initial trees ... 12.395 seconds
+Current best score: -18725.713
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -18689.292
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -18659.867
+Iteration 10 / LogL: -18788.633 / Time: 0h:1m:22s
+Iteration 20 / LogL: -18810.834 / Time: 0h:1m:54s
+Finish initializing candidate tree set (20)
+Current best tree score: -18659.867 / CPU time: 99.266
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -18623.719
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -18622.463
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -18605.995
+Iteration 30 / LogL: -18605.995 / Time: 0h:2m:48s (0h:9m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -18602.324
+Iteration 40 / LogL: -18666.268 / Time: 0h:3m:33s (0h:8m:57s left)
+Iteration 50 / LogL: -18659.546 / Time: 0h:4m:21s (0h:7m:49s left)
+Iteration 60 / LogL: -18958.162 / Time: 0h:5m:10s (0h:6m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 67: -18601.534
+Iteration 70 / LogL: -18809.204 / Time: 0h:6m:1s (0h:8m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 76: -18593.802
+Iteration 80 / LogL: -18655.941 / Time: 0h:6m:52s (0h:8m:21s left)
+Iteration 90 / LogL: -18736.990 / Time: 0h:7m:32s (0h:7m:17s left)
+Iteration 100 / LogL: -18653.273 / Time: 0h:8m:14s (0h:6m:19s left)
+Iteration 110 / LogL: -18640.390 / Time: 0h:8m:58s (0h:5m:26s left)
+Iteration 120 / LogL: -18643.467 / Time: 0h:9m:40s (0h:4m:32s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 126: -18592.367
+Iteration 130 / LogL: -18715.375 / Time: 0h:10m:27s (0h:7m:47s left)
+Iteration 140 / LogL: -18648.898 / Time: 0h:11m:13s (0h:6m:56s left)
+Iteration 150 / LogL: -18600.476 / Time: 0h:11m:57s (0h:6m:5s left)
+Iteration 160 / LogL: -18681.741 / Time: 0h:12m:38s (0h:5m:14s left)
+Iteration 170 / LogL: -18671.513 / Time: 0h:13m:24s (0h:4m:26s left)
+Iteration 180 / LogL: -18624.000 / Time: 0h:14m:6s (0h:3m:37s left)
+Iteration 190 / LogL: -18648.979 / Time: 0h:14m:52s (0h:2m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 199: -18590.833
+Iteration 200 / LogL: -18617.643 / Time: 0h:15m:46s (0h:7m:50s left)
+Iteration 210 / LogL: -18781.766 / Time: 0h:16m:31s (0h:7m:2s left)
+Iteration 220 / LogL: -18633.743 / Time: 0h:17m:15s (0h:6m:13s left)
+Iteration 230 / LogL: -18776.062 / Time: 0h:18m:2s (0h:5m:26s left)
+Iteration 240 / LogL: -18671.240 / Time: 0h:18m:51s (0h:4m:39s left)
+Iteration 250 / LogL: -18667.915 / Time: 0h:19m:31s (0h:3m:50s left)
+Iteration 260 / LogL: -18657.900 / Time: 0h:20m:16s (0h:3m:3s left)
+Iteration 270 / LogL: -18665.774 / Time: 0h:21m:1s (0h:2m:15s left)
+Iteration 280 / LogL: -18651.512 / Time: 0h:21m:44s (0h:1m:28s left)
+Iteration 290 / LogL: -18955.408 / Time: 0h:22m:28s (0h:0m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 296: -18576.315
+Iteration 300 / LogL: -18643.944 / Time: 0h:23m:18s (0h:7m:28s left)
+Iteration 310 / LogL: -18614.115 / Time: 0h:24m:1s (0h:6m:41s left)
+Iteration 320 / LogL: -18651.945 / Time: 0h:24m:47s (0h:5m:54s left)
+Iteration 330 / LogL: -18646.394 / Time: 0h:25m:35s (0h:5m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 334: -18573.212
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 339: -18572.206
+Iteration 340 / LogL: -18599.505 / Time: 0h:26m:31s (0h:7m:44s left)
+Iteration 350 / LogL: -18577.865 / Time: 0h:27m:20s (0h:6m:58s left)
+Iteration 360 / LogL: -18611.371 / Time: 0h:28m:10s (0h:6m:11s left)
+Iteration 370 / LogL: -18873.989 / Time: 0h:28m:54s (0h:5m:24s left)
+Iteration 380 / LogL: -18614.466 / Time: 0h:29m:36s (0h:4m:36s left)
+Iteration 390 / LogL: -18592.347 / Time: 0h:30m:22s (0h:3m:49s left)
+Iteration 400 / LogL: -18619.174 / Time: 0h:31m:11s (0h:3m:2s left)
+Iteration 410 / LogL: -18618.848 / Time: 0h:31m:54s (0h:2m:15s left)
+Iteration 420 / LogL: -18583.205 / Time: 0h:32m:38s (0h:1m:28s left)
+Iteration 430 / LogL: -18592.718 / Time: 0h:33m:25s (0h:0m:42s left)
+Iteration 440 / LogL: -18617.257 / Time: 0h:34m:4s (0h:0m:-5s left)
+TREE SEARCH COMPLETED AFTER 440 ITERATIONS / Time: 0h:34m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -18572.206
+2. Current log-likelihood: -18572.196
+Optimal log-likelihood: -18572.186
+Proportion of invariable sites: 0.145
+Site proportion and rates:  (0.137,0.137) (0.032,0.190) (0.062,0.416) (0.064,0.422) (0.071,0.631) (0.074,0.646) (0.158,1.206) (0.138,1.559) (0.093,2.881) (0.027,5.849)
+Parameters optimization took 2 rounds (4.293 sec)
+BEST SCORE FOUND : -18572.186
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.814 sec.
+Total tree length: 14.270
+
+Total number of iterations: 440
+CPU time used for tree search: 16008.756 sec (4h:26m:48s)
+Wall-clock time used for tree search: 2029.541 sec (0h:33m:49s)
+Total CPU time used: 16165.429 sec (4h:29m:25s)
+Total wall-clock time used: 2049.980 sec (0h:34m:9s)
+
+Analysis results written to: 
+  IQ-TREE report:                DC8_CIDRa1.8_wholeseq.aligned.fasta.iqtree
+  Maximum-likelihood tree:       DC8_CIDRa1.8_wholeseq.aligned.fasta.treefile
+  Likelihood distances:          DC8_CIDRa1.8_wholeseq.aligned.fasta.mldist
+  Screen log file:               DC8_CIDRa1.8_wholeseq.aligned.fasta.log
+
+Date and Time: Mon Mar 24 11:44:50 2025

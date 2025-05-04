@@ -1,0 +1,923 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    node2i02.ecdf.ed.ac.uk (AVX512, FMA3, 754 GB RAM)
+Command: iqtree2 --safe -s DC8_DBLg6_wholeseq.aligned.fasta -m JTT+F+I+I+R10 -alrt 1000 -nt 8
+Seed:    560510 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar 24 11:10:52 2025
+Kernel:  Safe AVX+FMA - 8 threads (8 CPU cores detected)
+
+Reading alignment file DC8_DBLg6_wholeseq.aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.0033336 secs using 99.5% CPU
+Alignment most likely contains protein sequences
+Alignment has 454 sequences with 520 columns, 471 distinct patterns
+351 parsimony-informative, 29 singleton sites, 140 constant sites
+                                   Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 8.8019e-05 secs using 2682% CPU
+   1  PF0396-C.g1093_1115-1464_DBLg6_     32.88%    passed     19.46%
+   2  PT0029-C.g264_1223-1600_DBLg6_      27.50%    passed     70.51%
+   3  PF0723-C.g202_1205-1570_DBLg6_      29.81%    passed     83.22%
+   4  PH0973-C.g1079_1277-1563_DBLg6_     45.00%    passed     31.13%
+   5  PF0401-C.g133_1259-1610_DBLg6_      32.50%    passed     98.34%
+   6  QP0231-C.g235_1263-1614_DBLg6_      32.50%    passed     98.34%
+   7  PH0054-C.g44_1208-1606_DBLg6_       23.46%    passed     88.82%
+   8  PA0021-C.g284_1251-1635_DBLg6_      26.15%    passed     99.93%
+   9  QG0059-C.g3428_1322-1706_DBLg6_     26.15%    passed     99.93%
+  10  PF0383-C.g39_1241-1603_DBLg6_       30.38%    passed     97.09%
+  11  PF0722-C.g263_1251-1623_DBLg6_      28.46%    passed     81.94%
+  12  QG0191-C.g464_1258-1630_DBLg6_      28.46%    passed     81.94%
+  13  IT4-020027600_1308-1689_DBLg6_      26.73%    passed     95.02%
+  14  PD0578-C.g4332_1224-1605_DBLg6_     26.73%    passed     95.02%
+  15  PH0327-C.g125_1244-1625_DBLg6_      26.73%    passed     95.02%
+  16  PH0461-C.g114_1241-1622_DBLg6_      26.73%    passed     95.02%
+  17  PT0072-C.g506_1271-1648_DBLg6_      27.50%    passed     93.68%
+  18  PM0152-C.g591_1181-1563_DBLg6_      26.54%    passed     99.57%
+  19  PV0226-C.g21_1251-1630_DBLg6_       27.12%    passed     99.46%
+  20  PF0653-C.g7719_1286-1660_DBLg6_     28.08%    passed     98.38%
+  21  QM0013-C.g203_1242-1622_DBLg6_      26.92%    passed     99.01%
+  22  10668.g597_1258-1635_DBLg6_         27.50%    passed     94.79%
+  23  PA0182-C.g62_1198-1576_DBLg6_       27.31%    passed     99.61%
+  24  PF0229-C.g721_1260-1638_DBLg6_      27.31%    passed     99.61%
+  25  PD0718-C.g57_1210-1599_DBLg6_       25.19%    passed     98.84%
+  26  QP0151-C.g20968_1307-1634_DBLg6_    37.12%    passed     62.43%
+  27  PH1310-C.g158_1207-1596_DBLg6_      25.19%    passed     85.21%
+  28  QE0418-C.g469_1207-1596_DBLg6_      25.19%    passed     85.21%
+  29  QE0424-C.g465_1207-1596_DBLg6_      25.19%    passed     85.21%
+  30  PF0029-C.g271_1272-1657_DBLg6_      25.96%    passed     99.77%
+  31  PF0463-C.g474_1212-1597_DBLg6_      25.96%    passed     99.77%
+  32  PF0493-C.g319_1291-1676_DBLg6_      25.96%    passed     99.77%
+  33  PR0157-C.g371_1238-1623_DBLg6_      25.96%    passed     99.77%
+  34  PM0068-C.g23_1205-1581_DBLg6_       27.69%    passed     91.26%
+  35  PT0071-C.g242_1208-1584_DBLg6_      27.69%    passed     91.26%
+  36  PT0247-Cx.g1544_1208-1584_DBLg6_    27.69%    passed     91.26%
+  37  PT0235-Cx.g252_1199-1574_DBLg6_     27.88%    passed     75.39%
+  38  PF0800-C.g2346_1271-1650_DBLg6_     27.12%    passed     88.47%
+  39  PF0053-C.g61_1193-1577_DBLg6_       26.15%    passed     99.21%
+  40  QG0009-C.g769_1262-1646_DBLg6_      26.15%    passed     99.38%
+  41  PE0119-C.g305_1235-1622_DBLg6_      25.58%    passed     87.14%
+  42  PM0077-C.g2656_1252-1636_DBLg6_     26.15%    passed     94.85%
+  43  QP0042-C.g130_1268-1652_DBLg6_      26.15%    passed     94.97%
+  44  PF0116-C.g472_1215-1592_DBLg6_      27.50%    passed     73.92%
+  45  PF0206-C.g93_1246-1626_DBLg6_       26.92%    passed     98.97%
+  46  QG0280-C.g366_1279-1660_DBLg6_      26.73%    passed     99.00%
+  47  PF0039-C.g535_1210-1555_DBLg6_      33.65%    passed     77.46%
+  48  PM0136-C.g144_1197-1536_DBLg6_      34.81%    passed     98.21%
+  49  PT0280-C.g7766_1175-1514_DBLg6_     34.81%    passed     98.21%
+  50  QE0400-C.g230_1230-1574_DBLg6_      33.85%    passed     99.91%
+  51  PF0373-C.g745_1205-1548_DBLg6_      34.04%    passed     99.99%
+  52  PF0448-C.g33_1202-1545_DBLg6_       34.04%    passed     99.99%
+  53  PK0009-C.g846_1279-1622_DBLg6_      34.04%    passed     99.99%
+  54  PV0231-C.g87_1248-1591_DBLg6_       34.04%    passed     99.99%
+  55  QC0186-C.g593_1230-1573_DBLg6_      34.04%    passed     99.99%
+  56  QP0012-C.g71_1247-1590_DBLg6_       34.04%    passed     99.98%
+  57  QP0239-C.g79_1283-1626_DBLg6_       34.04%    passed     99.98%
+  58  PA0013-C.g207_1289-1636_DBLg6_      33.27%    passed     99.64%
+  59  PF0453-C.g452_1287-1634_DBLg6_      33.27%    passed     99.64%
+  60  PT0101-C.g114_1231-1578_DBLg6_      33.27%    passed     99.65%
+  61  PD0552-C.g667_1215-1572_DBLg6_      31.35%    passed     98.68%
+  62  PD0556-C.g560_1215-1572_DBLg6_      31.35%    passed     98.68%
+  63  PD0563-C.g612_1215-1572_DBLg6_      31.35%    passed     98.68%
+  64  PD0566-C.g698_1174-1531_DBLg6_      31.35%    passed     98.68%
+  65  PD0820-C.g549_1215-1572_DBLg6_      31.35%    passed     98.68%
+  66  PR0114-C.g217_1215-1572_DBLg6_      31.35%    passed     98.68%
+  67  PD0786-C.g848_1291-1654_DBLg6_      30.19%    passed     98.92%
+  68  PD0830-C.g122_1291-1654_DBLg6_      30.19%    passed     97.12%
+  69  PD0865-C.g123_1291-1654_DBLg6_      30.19%    passed     97.12%
+  70  PD0870-C.g69_1291-1654_DBLg6_       30.19%    passed     97.12%
+  71  PD0842-C.g650_1213-1574_DBLg6_      30.58%    passed     95.63%
+  72  PF0676-C.g119_1224-1588_DBLg6_      30.00%    passed     95.13%
+  73  PF0775-C.g115_1078-1442_DBLg6_      30.00%    passed     95.39%
+  74  PT0228-Cx.g537_1210-1574_DBLg6_     30.00%    passed     95.39%
+  75  PT0234-Cx.g91_1224-1588_DBLg6_      30.00%    passed     95.39%
+  76  PT0283-C.g345_1210-1574_DBLg6_      30.00%    passed     95.39%
+  77  PT0299-Cx.g204_1210-1574_DBLg6_     30.00%    passed     95.39%
+  78  QG0141-C.g2597_1195-1559_DBLg6_     30.00%    passed     95.39%
+  79  QG0205-C.g118_1205-1569_DBLg6_      30.00%    passed     95.39%
+  80  QP0235-C.g670_1221-1585_DBLg6_      30.00%    passed     95.39%
+  81  PT0182-C.g3777_1193-1554_DBLg6_     30.58%    passed     94.94%
+  82  GB4-110006900_1318-1681_DBLg6_      30.19%    passed     92.12%
+  83  PE0125-C.g146_1330-1693_DBLg6_      30.19%    passed     92.12%
+  84  QP0153-C.g1848_1270-1633_DBLg6_     30.19%    passed     87.83%
+  85  PF0286-C.g263_1194-1549_DBLg6_      31.73%    passed     99.43%
+  86  PM0144-C.g341_1194-1549_DBLg6_      31.73%    passed     99.43%
+  87  PT0112-C.g2143_1256-1621_DBLg6_     29.81%    passed     99.89%
+  88  PT0286-C.g7193_1210-1567_DBLg6_     31.35%    passed     99.69%
+  89  PT0297-C.g192_1220-1579_DBLg6_      30.96%    passed     98.98%
+  90  QG0159-C.g3131_1226-1585_DBLg6_     30.96%    passed     92.83%
+  91  QG0161-C.g1174_1226-1585_DBLg6_     30.96%    passed     92.83%
+  92  QP0196-C.g7005_1226-1585_DBLg6_     30.96%    passed     92.83%
+  93  PE0132-C.g631_1202-1567_DBLg6_      29.81%    passed     99.97%
+  94  QG0019-C.g789_1284-1648_DBLg6_      30.00%    passed    100.00%
+  95  PF0621-C.g436_1220-1584_DBLg6_      30.00%    passed    100.00%
+  96  QP0235-C.g452_1222-1586_DBLg6_      30.00%    passed    100.00%
+  97  PA0144-C.g80_1218-1582_DBLg6_       30.00%    passed    100.00%
+  98  PM0115-C.g30_1462-1826_DBLg6_       30.00%    passed    100.00%
+  99  PT0143-C.g253_1217-1581_DBLg6_      30.00%    passed    100.00%
+ 100  PF0152-C.g13_1217-1581_DBLg6_       30.00%    passed    100.00%
+ 101  PF0290-C.g237_1215-1583_DBLg6_      29.23%    passed     99.36%
+ 102  PF0489-C.g470_1294-1641_DBLg6_      33.27%    passed     99.27%
+ 103  PD0630-C.g45_1226-1577_DBLg6_       32.50%    passed     76.53%
+ 104  PD0632-C.g485_1226-1577_DBLg6_      32.50%    passed     76.53%
+ 105  PD0872-C.g551_1243-1602_DBLg6_      30.96%    passed     93.85%
+ 106  PD0464-C.g392_1277-1645_DBLg6_      29.23%    passed     99.51%
+ 107  PD0487-C.g368_1277-1645_DBLg6_      29.23%    passed     99.51%
+ 108  PD0495-C.g312_1279-1647_DBLg6_      29.23%    passed     99.51%
+ 109  PD0511-C.g249_1279-1647_DBLg6_      29.23%    passed     99.51%
+ 110  PD0530-C.g475_1277-1645_DBLg6_      29.23%    passed     99.51%
+ 111  PD0540-C.g526_1277-1645_DBLg6_      29.23%    passed     99.51%
+ 112  PD0545-C.g248_1277-1645_DBLg6_      29.23%    passed     99.51%
+ 113  PD0546-C.g514_1277-1645_DBLg6_      29.23%    passed     99.51%
+ 114  PD0549-C.g441_1277-1645_DBLg6_      29.23%    passed     99.51%
+ 115  PD0550-C.g233_1277-1645_DBLg6_      29.23%    passed     99.51%
+ 116  PD0569-C.g465_1277-1645_DBLg6_      29.23%    passed     99.51%
+ 117  PD0636-C.g136_1277-1645_DBLg6_      29.23%    passed     99.51%
+ 118  PD0846-C.g251_1279-1647_DBLg6_      29.23%    passed     99.51%
+ 119  PD0891-C.g92_1269-1637_DBLg6_       29.23%    passed     99.51%
+ 120  PE0137-C.g92_1282-1650_DBLg6_       29.23%    passed     99.51%
+ 121  PH0500-CW.g194_1277-1645_DBLg6_     29.23%    passed     99.51%
+ 122  PF0683-C.g2243_1260-1625_DBLg6_     29.81%    passed     99.77%
+ 123  PF0472-C.g90_1212-1561_DBLg6_       32.88%    passed     99.95%
+ 124  PM0019-C.g738_1215-1569_DBLg6_      31.92%    passed     99.17%
+ 125  PF0328-C.g446_1280-1619_DBLg6_      34.81%    passed     98.11%
+ 126  PM0083-C.g140_1227-1582_DBLg6_      31.73%    passed     99.97%
+ 127  PF0305-C.g750_1215-1573_DBLg6_      31.15%    passed     99.41%
+ 128  PF0479-C.g1069_1059-1417_DBLg6_     31.15%    passed     99.41%
+ 129  PF0522-C.g710_1203-1561_DBLg6_      31.15%    passed     99.41%
+ 130  PM0159-C.g1_1219-1577_DBLg6_        31.15%    passed     99.41%
+ 131  SenT151.08.g494_1268-1626_DBLg6_    31.15%    passed     99.41%
+ 132  PA0213-C.g362_1196-1542_DBLg6_      33.46%    passed     99.36%
+ 133  PF0373-C.g85_1221-1567_DBLg6_       33.46%    passed     99.36%
+ 134  PM0136-C.g594_1216-1562_DBLg6_      33.46%    passed     99.36%
+ 135  QG0115-C.g4800_1131-1477_DBLg6_     33.46%    passed     99.36%
+ 136  PF0768-C.g68_1216-1562_DBLg6_       33.46%    passed     99.56%
+ 137  PF0818-C.g564_1216-1562_DBLg6_      33.46%    passed     99.56%
+ 138  PD0494-C.g71_1218-1568_DBLg6_       32.69%    passed     41.56%
+ 139  PD0536-C.g14_1218-1568_DBLg6_       32.69%    passed     41.56%
+ 140  PH0131-CW.g91_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 141  PH0134-C.g109_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 142  PH0224-C.g11_1218-1568_DBLg6_       32.69%    passed     41.56%
+ 143  PH0469-CW.g399_1218-1568_DBLg6_     32.69%    passed     41.56%
+ 144  PH0485-C.g112_1190-1540_DBLg6_      32.69%    passed     41.56%
+ 145  PH0534-C.g187_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 146  PH0634-C.g201_1227-1577_DBLg6_      32.69%    passed     41.56%
+ 147  PH0819-C.g554_1103-1453_DBLg6_      32.69%    passed     41.56%
+ 148  PH0820-C.g626_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 149  PH0823-C.g591_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 150  PH0826-C.g559_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 151  PH0828-C.g469_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 152  PH0833-C.g819_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 153  PH0847-C.g681_1135-1485_DBLg6_      32.69%    passed     41.56%
+ 154  PH0854-C.g470_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 155  PH0855-C.g646_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 156  PH0888-C.g329_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 157  PH0889-C.g744_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 158  PH0890-C.g829_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 159  PH0893-C.g12833_1218-1568_DBLg6_    32.69%    passed     41.56%
+ 160  PH0894-C.g635_1149-1499_DBLg6_      32.69%    passed     41.56%
+ 161  PH0899-C.g471_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 162  PH0900-C.g585_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 163  PH0901-C.g801_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 164  PH0907-C.g899_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 165  PH0908-C.g880_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 166  PH0910-C.g439_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 167  PH0911-Cx.g429_1218-1568_DBLg6_     32.69%    passed     41.56%
+ 168  PH0915-C.g31_1218-1568_DBLg6_       32.69%    passed     41.56%
+ 169  PH0916-C.g1006_1218-1568_DBLg6_     32.69%    passed     41.56%
+ 170  PH0984-C.g259_1227-1577_DBLg6_      32.69%    passed     41.56%
+ 171  PH0989-C.g446_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 172  PH0990-C.g1891_1218-1568_DBLg6_     32.69%    passed     41.56%
+ 173  PH0991-C.g1046_1227-1577_DBLg6_     32.69%    passed     41.56%
+ 174  PH1001-C.g958_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 175  PH1002-C.g1759_1218-1568_DBLg6_     32.69%    passed     41.56%
+ 176  PH1136-C.g324_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 177  PV0017-C.g327_1218-1568_DBLg6_      32.69%    passed     41.56%
+ 178  PV0035-C.g4_1227-1577_DBLg6_        32.69%    passed     41.56%
+ 179  PH0353-C.g127_1227-1577_DBLg6_      32.69%    passed     39.65%
+ 180  PH1105-C.g1363_1227-1577_DBLg6_     32.69%    passed     39.65%
+ 181  PH1153-C.g195_1227-1577_DBLg6_      32.69%    passed     39.65%
+ 182  PH1218-C.g857_1227-1577_DBLg6_      32.69%    passed     39.65%
+ 183  PV0046-C.g29_1227-1577_DBLg6_       32.69%    passed     39.65%
+ 184  QE0464-C.g520_1227-1577_DBLg6_      32.69%    passed     39.65%
+ 185  PF0613-C.g2580_1178-1535_DBLg6_     31.35%    passed     99.26%
+ 186  PF0629-C.g642_1178-1535_DBLg6_      31.35%    passed     99.26%
+ 187  PH0933-C.g182_1184-1541_DBLg6_      31.35%    passed     99.26%
+ 188  PD0468-C.g496_1216-1570_DBLg6_      31.92%    passed     99.99%
+ 189  PV0098-C.g22_1207-1561_DBLg6_       31.92%    passed     99.99%
+ 190  PV0100-C.g4_1066-1420_DBLg6_        31.92%    passed     99.99%
+ 191  PV0112-C.g6_1207-1561_DBLg6_        31.92%    passed     99.99%
+ 192  PV0138-C.g5_1262-1616_DBLg6_        31.92%    passed     99.99%
+ 193  PV0148-C.g3_1207-1561_DBLg6_        31.92%    passed     99.99%
+ 194  PV0257-C.g90_1207-1561_DBLg6_       31.92%    passed     99.99%
+ 195  QC0167-C.g207_1216-1570_DBLg6_      31.92%    passed     99.99%
+ 196  PH0347-C.g83_1210-1564_DBLg6_       31.92%    passed     99.97%
+ 197  PH0358-C.g41_1210-1564_DBLg6_       31.92%    passed     99.97%
+ 198  PH0625-C.g38_1210-1564_DBLg6_       31.92%    passed     99.97%
+ 199  PH0631-C.g111_1210-1564_DBLg6_      31.92%    passed     99.97%
+ 200  PH0647-C.g15_1210-1564_DBLg6_       31.92%    passed     99.97%
+ 201  PH0788-C.g745_1210-1564_DBLg6_      31.92%    passed     99.97%
+ 202  PH0982-C.g397_1214-1570_DBLg6_      31.54%    passed     97.59%
+ 203  3D7-0400400_1199-1556_DBLg6_        31.35%    passed     99.76%
+ 204  QG0203-C.g1370_1205-1562_DBLg6_     31.35%    passed     99.54%
+ 205  PF0285-C.g64_1236-1592_DBLg6_       31.54%    passed     99.02%
+ 206  QG0020-C.g1290_1214-1569_DBLg6_     31.73%    passed     95.52%
+ 207  PA0027-C.g262_1216-1572_DBLg6_      31.54%    passed     99.45%
+ 208  PT0200-Cx.g325_1216-1572_DBLg6_     31.54%    passed     99.45%
+ 209  PF0106-C.g132_1211-1565_DBLg6_      31.92%    passed     99.45%
+ 210  QP0168-C.g112_1209-1563_DBLg6_      31.92%    passed     99.92%
+ 211  CD01-060005500_1264-1618_DBLg6_     31.92%    passed     99.82%
+ 212  PF0730-C.g235_1232-1587_DBLg6_      31.73%    passed     98.15%
+ 213  PD0889-C.g772_1269-1619_DBLg6_      32.69%    passed     94.98%
+ 214  PV0101-C.g15_1253-1603_DBLg6_       32.69%    passed     94.98%
+ 215  PV0185-C.g49_1230-1580_DBLg6_       32.69%    passed     94.98%
+ 216  PV0137-C.g12_1189-1491_DBLg6_       41.92%    passed     88.77%
+ 217  QG0194-C.g241_1234-1586_DBLg6_      32.31%    passed     98.93%
+ 218  PH1147-C.g133_1216-1564_DBLg6_      33.08%    passed     99.97%
+ 219  PH1160-C.g618_1216-1564_DBLg6_      33.08%    passed     99.97%
+ 220  PH1164-C.g662_1216-1525_DBLg6_      40.58%    passed     98.91%
+ 221  PH0877-C.g123_1269-1621_DBLg6_      32.31%    passed     99.87%
+ 222  QE0396-C.g324_1233-1588_DBLg6_      31.73%    passed     80.16%
+ 223  QG0286-C.g3121_1222-1574_DBLg6_     32.31%    passed     99.86%
+ 224  PF0144-C.g1047_1201-1553_DBLg6_     32.31%    passed    100.00%
+ 225  QP0220-C.g306_1257-1609_DBLg6_      32.31%    passed     99.93%
+ 226  Dd2-070016300_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 227  GB4-070018000_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 228  IT4-070017000_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 229  PA0012-C.g128_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 230  PA0020-C.g182_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 231  PA0047-C.g208_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 232  PA0052-C.g144_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 233  PA0085-C.g85_1223-1582_DBLg6_       30.96%    passed     99.48%
+ 234  PA0101-C.g101_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 235  PA0134-C.g387_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 236  PA0137-C.g151_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 237  PA0140-C.g72_1223-1582_DBLg6_       30.96%    passed     99.48%
+ 238  PA0152-C.g150_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 239  PA0169-C.g172_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 240  PA0220-C.g303_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 241  PA0227-C.g823_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 242  PA0228-C.g1198_1223-1582_DBLg6_     30.96%    passed     99.48%
+ 243  PA0245-C.g434_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 244  PA0254-C.g336_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 245  PC0071-C.g80_1223-1582_DBLg6_       30.96%    passed     99.48%
+ 246  PC0083-C.g253_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 247  PD0471-C.g328_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 248  PD0581-C.g345_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 249  PD0582-C.g482_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 250  PD0586-C.g329_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 251  PD0592-C.g1358_1223-1582_DBLg6_     30.96%    passed     99.48%
+ 252  PD0721-C.g91_1223-1582_DBLg6_       30.96%    passed     99.48%
+ 253  PD0831-C.g233_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 254  PD0835-C.g958_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 255  PD0842-C.g64_1223-1582_DBLg6_       30.96%    passed     99.48%
+ 256  PD0854-C.g35_1223-1582_DBLg6_       30.96%    passed     99.48%
+ 257  PD0898-C.g245_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 258  PF0129-C.g785_1110-1469_DBLg6_      30.96%    passed     99.48%
+ 259  PF0465-C.g3167_1223-1582_DBLg6_     30.96%    passed     99.48%
+ 260  PH0232-C.g426_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 261  PH0617-C.g22_1223-1582_DBLg6_       30.96%    passed     99.48%
+ 262  PH0926-C.g240_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 263  PH0940-Cx.g487_1223-1582_DBLg6_     30.96%    passed     99.48%
+ 264  PM0018-C.g1083_1223-1582_DBLg6_     30.96%    passed     99.48%
+ 265  PM0019-C.g1029_1223-1582_DBLg6_     30.96%    passed     99.48%
+ 266  PM0051-C.g542_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 267  PM0063-C.g123_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 268  PM0136-C.g109_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 269  PM0138-C.g421_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 270  PR0120-C.g247_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 271  PT0078-Cx.g586_1223-1582_DBLg6_     30.96%    passed     99.48%
+ 272  QC0179-C.g3634_1223-1582_DBLg6_     30.96%    passed     99.48%
+ 273  QG0007-C.g240_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 274  QG0082-C.g3152_1223-1582_DBLg6_     30.96%    passed     99.48%
+ 275  QG0106-C.g530_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 276  QG0235-C.g3026_1223-1582_DBLg6_     30.96%    passed     99.48%
+ 277  QG0291-C.g1979_1223-1582_DBLg6_     30.96%    passed     99.48%
+ 278  QP0029-C.g411_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 279  QP0118-C.g365_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 280  QP0195-C.g213_1223-1582_DBLg6_      30.96%    passed     99.48%
+ 281  SenV042.05.g117_1223-1582_DBLg6_    30.96%    passed     99.48%
+ 282  PE0121-C.g179_1205-1561_DBLg6_      31.54%    passed     99.51%
+ 283  PF0024-C.g629_1207-1563_DBLg6_      31.54%    passed     99.51%
+ 284  PT0053-C.g393_1235-1592_DBLg6_      31.35%    passed     99.92%
+ 285  PT0148-C.g4830_1203-1560_DBLg6_     31.35%    passed     99.92%
+ 286  QG0029-C.g231_1223-1580_DBLg6_      31.35%    passed     99.92%
+ 287  PD0592-C.g1113_1239-1589_DBLg6_     32.69%    passed     99.40%
+ 288  PD0864-C.g133_1239-1589_DBLg6_      32.69%    passed     99.40%
+ 289  PF0064-C.g144_1295-1640_DBLg6_      33.65%    passed     96.28%
+ 290  PF0149-C.g179_1265-1610_DBLg6_      33.65%    passed     96.28%
+ 291  PF0783-C.g1393_1287-1632_DBLg6_     33.65%    passed     96.28%
+ 292  QG0190-C.g240_1207-1552_DBLg6_      33.65%    passed     96.28%
+ 293  PH0365-C.g352_1221-1558_DBLg6_      35.19%    passed     99.79%
+ 294  PA0197-C.g380_1218-1560_DBLg6_      34.23%    passed     56.44%
+ 295  PF0771-C.g6809_1218-1560_DBLg6_     34.23%    passed     56.44%
+ 296  PA0095-C.g1391_1268-1612_DBLg6_     33.85%    passed     93.68%
+ 297  QG0176-C.g73_1294-1638_DBLg6_       33.85%    passed     93.68%
+ 298  QG0246-C.g2325_1294-1638_DBLg6_     33.85%    passed     93.68%
+ 299  QP0226-C.g178_1313-1657_DBLg6_      33.85%    passed     93.68%
+ 300  PE0130-C.g90_1256-1600_DBLg6_       33.85%    passed     67.44%
+ 301  PF0365-C.g170_1221-1565_DBLg6_      33.85%    passed     67.44%
+ 302  QG0238-C.g3734_1198-1542_DBLg6_     33.85%    passed     67.44%
+ 303  PH0631-C.g469_1229-1567_DBLg6_      35.00%    passed     92.63%
+ 304  PH0647-C.g380_1229-1567_DBLg6_      35.00%    passed     92.63%
+ 305  PH0355-C.g410_1295-1634_DBLg6_      34.81%    passed     91.01%
+ 306  PT0079-C.g335_1235-1572_DBLg6_      35.19%    passed     97.64%
+ 307  PD0894-C.g141_1199-1539_DBLg6_      34.62%    passed     98.26%
+ 308  PH0133-CW.g132_1211-1550_DBLg6_     34.81%    passed     98.70%
+ 309  PH0337-C.g390_1211-1550_DBLg6_      34.81%    passed     98.70%
+ 310  PH0516-C.g710_1211-1550_DBLg6_      34.81%    passed     98.70%
+ 311  PH0603-C.g1905_1211-1550_DBLg6_     34.81%    passed     98.70%
+ 312  PH0927-C.g491_1211-1550_DBLg6_      34.81%    passed     98.70%
+ 313  QE0470-C.g572_1211-1550_DBLg6_      34.81%    passed     98.70%
+ 314  QE0416-C.g995_1191-1530_DBLg6_      34.81%    passed     98.29%
+ 315  QE0481-C.g523_1191-1530_DBLg6_      34.81%    passed     98.29%
+ 316  PH0063-C.g449_1198-1537_DBLg6_      34.81%    passed     98.79%
+ 317  PH0229-C.g22_1216-1555_DBLg6_       34.81%    passed     98.79%
+ 318  PH0497-CW.g497_1198-1537_DBLg6_     34.81%    passed     98.79%
+ 319  PH0905-C.g477_1198-1537_DBLg6_      34.81%    passed     98.79%
+ 320  PH0586-C.g254_1211-1550_DBLg6_      34.81%    passed     98.88%
+ 321  PR0147-C.g577_1264-1619_DBLg6_      31.73%    passed     99.81%
+ 322  PR0163-C.g257_1264-1619_DBLg6_      31.73%    passed     99.81%
+ 323  PF0045-C.g133_1188-1547_DBLg6_      30.96%    passed     97.80%
+ 324  PH0205-C.g298_1245-1610_DBLg6_      29.81%    passed     99.50%
+ 325  PH0636-C.g649_1245-1610_DBLg6_      29.81%    passed     99.50%
+ 326  PV0329-C.g270_1245-1610_DBLg6_      29.81%    passed     99.50%
+ 327  QE0448-C.g335_1249-1614_DBLg6_      29.81%    passed     99.50%
+ 328  QE0449-C.g98_1249-1614_DBLg6_       29.81%    passed     99.50%
+ 329  PF0090-C.g289_1102-1453_DBLg6_      32.50%    passed     97.82%
+ 330  PF0172-C.g17_1287-1636_DBLg6_       32.88%    passed     77.68%
+ 331  PH0379-C.g706_1214-1560_DBLg6_      33.46%    passed     99.41%
+ 332  PH1032-C.g78_1261-1607_DBLg6_       33.46%    passed     95.29%
+ 333  PE0145-C.g113_1213-1562_DBLg6_      32.88%    passed     99.70%
+ 334  PK0019-C.g1423_1281-1639_DBLg6_     31.15%    passed     99.54%
+ 335  PF0453-C.g261_1220-1576_DBLg6_      31.54%    passed     99.29%
+ 336  PT0178-C.g1283_1201-1557_DBLg6_     31.54%    passed     96.58%
+ 337  PF0267-C.g224_1207-1565_DBLg6_      31.15%    passed     92.00%
+ 338  PH0382-C.g432_1256-1605_DBLg6_      32.88%    passed     98.60%
+ 339  PR0135-C.g247_1212-1562_DBLg6_      32.69%    passed     97.91%
+ 340  PD0582-C.g37_1209-1560_DBLg6_       32.50%    passed     99.42%
+ 341  PT0202-Cx.g126_1209-1560_DBLg6_     32.50%    passed     99.42%
+ 342  PV0017-C.g869_1209-1560_DBLg6_      32.50%    passed     99.42%
+ 343  PV0120-C.g9_1209-1560_DBLg6_        32.50%    passed     99.42%
+ 344  PV0231-C.g106_1209-1560_DBLg6_      32.50%    passed     99.42%
+ 345  PV0238-C.g4_1089-1440_DBLg6_        32.50%    passed     99.42%
+ 346  PV0239-C.g10_1209-1560_DBLg6_       32.50%    passed     99.42%
+ 347  PV0304-C.g661_1209-1560_DBLg6_      32.50%    passed     99.42%
+ 348  PV0126-C.g35_1209-1524_DBLg6_       39.42%    passed     96.51%
+ 349  PF0118-C.g844_1305-1654_DBLg6_      32.88%    passed     99.46%
+ 350  PF0264-C.g824_1311-1660_DBLg6_      32.88%    passed     99.46%
+ 351  PA0089-C.g427_1304-1637_DBLg6_      35.96%    passed     92.81%
+ 352  PF0325-C.g170_1309-1642_DBLg6_      35.96%    passed     92.81%
+ 353  PT0280-C.g7425_1255-1601_DBLg6_     33.46%    passed     99.88%
+ 354  PA0197-C.g316_1389-1737_DBLg6_      33.08%    passed     99.78%
+ 355  PR0116-C.g595_1199-1550_DBLg6_      32.50%    passed     98.71%
+ 356  PA0049-C.g108_1199-1545_DBLg6_      33.46%    passed     99.95%
+ 357  PV0267-C.g449_1222-1574_DBLg6_      32.31%    passed     99.16%
+ 358  PV0269-C.g481_1222-1574_DBLg6_      32.31%    passed     99.16%
+ 359  PD0721-C.g31_1273-1628_DBLg6_       31.73%    passed     99.47%
+ 360  PD0724-C.g36_1273-1628_DBLg6_       31.73%    passed     99.47%
+ 361  PV0261-C.g29_1234-1574_DBLg6_       34.62%    passed     87.19%
+ 362  PV0317-C.g308_1247-1587_DBLg6_      34.62%    passed     87.19%
+ 363  PV0319-C.g257_1247-1587_DBLg6_      34.62%    passed     87.19%
+ 364  QG0156-C.g4089_1273-1615_DBLg6_     34.23%    passed     94.80%
+ 365  QG0280-C.g442_1273-1615_DBLg6_      34.23%    passed     94.80%
+ 366  PF0081-C.g77_1243-1587_DBLg6_       33.85%    passed     99.99%
+ 367  SenT097.11.g664_1243-1587_DBLg6_    33.85%    passed     99.99%
+ 368  SenT140.11.g1158_1243-1587_DBLg6_   33.85%    passed     99.99%
+ 369  PH0064-C.g743_1248-1595_DBLg6_      33.27%    passed     98.35%
+ 370  PH0936-C.g504_1263-1611_DBLg6_      33.08%    passed     99.58%
+ 371  PF0102-C.g606_1286-1631_DBLg6_      33.65%    passed     99.97%
+ 372  PF0112-C.g170_1285-1630_DBLg6_      33.65%    passed     99.97%
+ 373  PF0178-C.g494_1274-1619_DBLg6_      33.65%    passed     99.97%
+ 374  PF0433-C.g29_1203-1548_DBLg6_       33.65%    passed     99.97%
+ 375  PM0093-C.g117_1274-1619_DBLg6_      33.65%    passed     99.97%
+ 376  PT0296-C.g8829_1254-1599_DBLg6_     33.65%    passed     99.97%
+ 377  QG0297-C.g2299_1256-1601_DBLg6_     33.65%    passed     99.97%
+ 378  PM0144-C.g382_1174-1519_DBLg6_      33.65%    passed     99.94%
+ 379  PF0122-C.g240_1265-1612_DBLg6_      33.27%    passed     91.31%
+ 380  PT0226-Cx.g645_1206-1553_DBLg6_     33.27%    passed     98.70%
+ 381  QM0005-C.g1064_1290-1637_DBLg6_     33.27%    passed     98.70%
+ 382  QP0205-C.g5422_1283-1630_DBLg6_     33.27%    passed     98.70%
+ 383  QM0027-C.g283_1258-1605_DBLg6_      33.27%    passed     99.45%
+ 384  PF0815-C.g622_1239-1586_DBLg6_      33.27%    passed     99.74%
+ 385  PT0140-C.g2021_1226-1575_DBLg6_     32.88%    passed     96.00%
+ 386  QG0020-C.g5232_1236-1585_DBLg6_     32.88%    passed     95.75%
+ 387  PF0722-C.g234_1240-1591_DBLg6_      32.50%    passed     97.97%
+ 388  PT0081-C.g4221_1240-1591_DBLg6_     32.50%    passed     97.97%
+ 389  PT0073-C.g63_1265-1618_DBLg6_       32.12%    passed     99.75%
+ 390  PE0119-C.g196_1282-1635_DBLg6_      32.12%    passed     99.89%
+ 391  PF0048-C.g530_1275-1628_DBLg6_      32.12%    passed     99.89%
+ 392  PF0756-C.g260_1235-1588_DBLg6_      32.12%    passed     99.89%
+ 393  PT0141-C.g225_1283-1636_DBLg6_      32.12%    passed     99.89%
+ 394  QG0164-C.g235_1274-1627_DBLg6_      32.12%    passed     99.89%
+ 395  PF0129-C.g70_1240-1591_DBLg6_       32.50%    passed    100.00%
+ 396  PF0398-C.g34_1235-1585_DBLg6_       32.69%    passed     99.01%
+ 397  PH0615-C.g183_1242-1592_DBLg6_      32.69%    passed     99.55%
+ 398  PV0114-C.g65_1242-1592_DBLg6_       32.69%    passed     99.55%
+ 399  PV0116-C.g70_1242-1592_DBLg6_       32.69%    passed     99.55%
+ 400  PV0118-C.g67_1242-1592_DBLg6_       32.69%    passed     99.55%
+ 401  PV0124-C.g62_1242-1592_DBLg6_       32.69%    passed     99.55%
+ 402  PV0303-C.g226_1242-1592_DBLg6_      32.69%    passed     99.55%
+ 403  QE0437-C.g979_1242-1592_DBLg6_      32.69%    passed     99.55%
+ 404  PD0789-C.g84_1266-1620_DBLg6_       31.92%    passed     99.92%
+ 405  PM0096-C.g24_1201-1552_DBLg6_       32.50%    passed     98.15%
+ 406  QG0031-C.g297_1271-1622_DBLg6_      32.50%    passed     99.39%
+ 407  QG0134-C.g846_1279-1630_DBLg6_      32.50%    passed     99.39%
+ 408  QG0135-C.g1019_1271-1622_DBLg6_     32.50%    passed     99.39%
+ 409  PD0476-C.g1398_1287-1643_DBLg6_     31.54%    passed     94.36%
+ 410  PD0492-C.g1112_1287-1643_DBLg6_     31.54%    passed     94.36%
+ 411  PD0518-C.g58_1287-1643_DBLg6_       31.54%    passed     94.36%
+ 412  PD0557-C.g655_1287-1643_DBLg6_      31.54%    passed     94.36%
+ 413  PD0565-C.g198_1287-1643_DBLg6_      31.54%    passed     94.36%
+ 414  PD0771-C.g182_1287-1643_DBLg6_      31.54%    passed     94.36%
+ 415  PD0833-C.g191_1287-1643_DBLg6_      31.54%    passed     94.36%
+ 416  PD0840-C.g67_1287-1643_DBLg6_       31.54%    passed     94.36%
+ 417  PD0882-C.g705_1287-1643_DBLg6_      31.54%    passed     94.36%
+ 418  PD0901-C.g181_1259-1615_DBLg6_      31.54%    passed     94.36%
+ 419  PD0538-C.g573_1223-1575_DBLg6_      32.31%    passed     99.64%
+ 420  PD0554-C.g159_1221-1573_DBLg6_      32.31%    passed     99.64%
+ 421  PD0572-C.g427_1223-1575_DBLg6_      32.31%    passed     99.64%
+ 422  PD0816-C.g328_1223-1575_DBLg6_      32.31%    passed     99.64%
+ 423  PD0817-C.g156_1223-1575_DBLg6_      32.31%    passed     99.64%
+ 424  PD0818-C.g317_1223-1575_DBLg6_      32.31%    passed     99.64%
+ 425  PD0827-C.g155_1223-1575_DBLg6_      32.31%    passed     99.64%
+ 426  PH0980-C.g52_1223-1575_DBLg6_       32.31%    passed     99.64%
+ 427  IT4-010005000_1277-1630_DBLg6_      32.12%    passed     99.56%
+ 428  PD0514-C.g908_1277-1630_DBLg6_      32.12%    passed     99.56%
+ 429  PD0518-C.g298_1277-1630_DBLg6_      32.12%    passed     99.56%
+ 430  PD0532-C.g286_1277-1630_DBLg6_      32.12%    passed     99.56%
+ 431  PD0557-C.g112_1277-1630_DBLg6_      32.12%    passed     99.56%
+ 432  PD0571-C.g237_1277-1630_DBLg6_      32.12%    passed     99.56%
+ 433  PF0077-C.g313_1277-1630_DBLg6_      32.12%    passed     99.56%
+ 434  PH0052-C.g332_1277-1630_DBLg6_      32.12%    passed     99.56%
+ 435  PH0108-CW.g76_1277-1630_DBLg6_      32.12%    passed     99.56%
+ 436  PH0114-C.g8_1277-1630_DBLg6_        32.12%    passed     99.56%
+ 437  PH0232-C.g401_1330-1683_DBLg6_      32.12%    passed     99.56%
+ 438  PV0266-C.g70_1277-1630_DBLg6_       32.12%    passed     99.56%
+ 439  PV0278-C.g13_1277-1630_DBLg6_       32.12%    passed     99.56%
+ 440  PV0345-C.g739_1277-1630_DBLg6_      32.12%    passed     99.56%
+ 441  QE0429-C.g136_1277-1630_DBLg6_      32.12%    passed     99.56%
+ 442  PH1169-C.g635_1250-1603_DBLg6_      32.12%    passed     88.01%
+ 443  QC0175-C.g551_1287-1641_DBLg6_      31.92%    passed     95.93%
+ 444  QE0416-C.g490_1245-1601_DBLg6_      31.54%    passed     98.79%
+ 445  PE0148-C.g239_1304-1663_DBLg6_      30.96%    passed     99.61%
+ 446  PT0209-C.g72_1218-1575_DBLg6_       31.35%    passed     98.76%
+ 447  QP0099-C.g439_1250-1607_DBLg6_      31.35%    passed     98.76%
+ 448  QP0072-C.g432_1192-1549_DBLg6_      31.35%    passed     99.10%
+ 449  PF0036-C.g878_1235-1590_DBLg6_      31.73%    passed     99.39%
+ 450  PH0368-C.g766_1260-1617_DBLg6_      31.35%    passed     87.80%
+ 451  QE0451-C.g318_1260-1617_DBLg6_      31.35%    passed     87.80%
+ 452  QG0106-C.g531_1198-1555_DBLg6_      31.35%    passed     99.73%
+ 453  PF0512-C.g250_1206-1559_DBLg6_      32.12%    passed     99.99%
+ 454  QG0145-C.g274_1303-1659_DBLg6_      31.54%    passed     84.84%
+****  TOTAL                               31.70%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: QP0231-C.g235_1263-1614_DBLg6_ is identical to PF0401-C.g133_1259-1610_DBLg6_ but kept for subsequent analysis
+NOTE: QG0059-C.g3428_1322-1706_DBLg6_ is identical to PA0021-C.g284_1251-1635_DBLg6_ but kept for subsequent analysis
+NOTE: QG0191-C.g464_1258-1630_DBLg6_ is identical to PF0722-C.g263_1251-1623_DBLg6_ but kept for subsequent analysis
+NOTE: PD0578-C.g4332_1224-1605_DBLg6_ is identical to IT4-020027600_1308-1689_DBLg6_ but kept for subsequent analysis
+NOTE: PF0229-C.g721_1260-1638_DBLg6_ is identical to PA0182-C.g62_1198-1576_DBLg6_ but kept for subsequent analysis
+NOTE: QE0418-C.g469_1207-1596_DBLg6_ is identical to PH1310-C.g158_1207-1596_DBLg6_ but kept for subsequent analysis
+NOTE: PF0463-C.g474_1212-1597_DBLg6_ is identical to PF0029-C.g271_1272-1657_DBLg6_ but kept for subsequent analysis
+NOTE: PT0071-C.g242_1208-1584_DBLg6_ is identical to PM0068-C.g23_1205-1581_DBLg6_ but kept for subsequent analysis
+NOTE: PT0280-C.g7766_1175-1514_DBLg6_ is identical to PM0136-C.g144_1197-1536_DBLg6_ but kept for subsequent analysis
+NOTE: PF0448-C.g33_1202-1545_DBLg6_ is identical to PF0373-C.g745_1205-1548_DBLg6_ but kept for subsequent analysis
+NOTE: QP0239-C.g79_1283-1626_DBLg6_ is identical to QP0012-C.g71_1247-1590_DBLg6_ but kept for subsequent analysis
+NOTE: PF0453-C.g452_1287-1634_DBLg6_ is identical to PA0013-C.g207_1289-1636_DBLg6_ but kept for subsequent analysis
+NOTE: PD0556-C.g560_1215-1572_DBLg6_ is identical to PD0552-C.g667_1215-1572_DBLg6_ but kept for subsequent analysis
+NOTE: PD0865-C.g123_1291-1654_DBLg6_ is identical to PD0830-C.g122_1291-1654_DBLg6_ but kept for subsequent analysis
+NOTE: PT0228-Cx.g537_1210-1574_DBLg6_ is identical to PF0775-C.g115_1078-1442_DBLg6_ but kept for subsequent analysis
+NOTE: PE0125-C.g146_1330-1693_DBLg6_ is identical to GB4-110006900_1318-1681_DBLg6_ but kept for subsequent analysis
+NOTE: PM0144-C.g341_1194-1549_DBLg6_ is identical to PF0286-C.g263_1194-1549_DBLg6_ but kept for subsequent analysis
+NOTE: QG0161-C.g1174_1226-1585_DBLg6_ is identical to QG0159-C.g3131_1226-1585_DBLg6_ but kept for subsequent analysis
+NOTE: PM0115-C.g30_1462-1826_DBLg6_ is identical to PA0144-C.g80_1218-1582_DBLg6_ but kept for subsequent analysis
+NOTE: PD0632-C.g485_1226-1577_DBLg6_ is identical to PD0630-C.g45_1226-1577_DBLg6_ but kept for subsequent analysis
+NOTE: PD0487-C.g368_1277-1645_DBLg6_ is identical to PD0464-C.g392_1277-1645_DBLg6_ but kept for subsequent analysis
+NOTE: PF0479-C.g1069_1059-1417_DBLg6_ is identical to PF0305-C.g750_1215-1573_DBLg6_ but kept for subsequent analysis
+NOTE: PF0373-C.g85_1221-1567_DBLg6_ is identical to PA0213-C.g362_1196-1542_DBLg6_ but kept for subsequent analysis
+NOTE: PF0818-C.g564_1216-1562_DBLg6_ is identical to PF0768-C.g68_1216-1562_DBLg6_ but kept for subsequent analysis
+NOTE: PD0536-C.g14_1218-1568_DBLg6_ is identical to PD0494-C.g71_1218-1568_DBLg6_ but kept for subsequent analysis
+NOTE: PH1105-C.g1363_1227-1577_DBLg6_ is identical to PH0353-C.g127_1227-1577_DBLg6_ but kept for subsequent analysis
+NOTE: PF0629-C.g642_1178-1535_DBLg6_ is identical to PF0613-C.g2580_1178-1535_DBLg6_ but kept for subsequent analysis
+NOTE: PV0098-C.g22_1207-1561_DBLg6_ is identical to PD0468-C.g496_1216-1570_DBLg6_ but kept for subsequent analysis
+NOTE: PH0358-C.g41_1210-1564_DBLg6_ is identical to PH0347-C.g83_1210-1564_DBLg6_ but kept for subsequent analysis
+NOTE: PT0200-Cx.g325_1216-1572_DBLg6_ is identical to PA0027-C.g262_1216-1572_DBLg6_ but kept for subsequent analysis
+NOTE: PV0101-C.g15_1253-1603_DBLg6_ is identical to PD0889-C.g772_1269-1619_DBLg6_ but kept for subsequent analysis
+NOTE: PH1160-C.g618_1216-1564_DBLg6_ is identical to PH1147-C.g133_1216-1564_DBLg6_ but kept for subsequent analysis
+NOTE: GB4-070018000_1223-1582_DBLg6_ is identical to Dd2-070016300_1223-1582_DBLg6_ but kept for subsequent analysis
+NOTE: PF0024-C.g629_1207-1563_DBLg6_ is identical to PE0121-C.g179_1205-1561_DBLg6_ but kept for subsequent analysis
+NOTE: PT0148-C.g4830_1203-1560_DBLg6_ is identical to PT0053-C.g393_1235-1592_DBLg6_ but kept for subsequent analysis
+NOTE: PD0864-C.g133_1239-1589_DBLg6_ is identical to PD0592-C.g1113_1239-1589_DBLg6_ but kept for subsequent analysis
+NOTE: PF0149-C.g179_1265-1610_DBLg6_ is identical to PF0064-C.g144_1295-1640_DBLg6_ but kept for subsequent analysis
+NOTE: PF0771-C.g6809_1218-1560_DBLg6_ is identical to PA0197-C.g380_1218-1560_DBLg6_ but kept for subsequent analysis
+NOTE: QG0176-C.g73_1294-1638_DBLg6_ is identical to PA0095-C.g1391_1268-1612_DBLg6_ but kept for subsequent analysis
+NOTE: PF0365-C.g170_1221-1565_DBLg6_ is identical to PE0130-C.g90_1256-1600_DBLg6_ but kept for subsequent analysis
+NOTE: PH0647-C.g380_1229-1567_DBLg6_ is identical to PH0631-C.g469_1229-1567_DBLg6_ but kept for subsequent analysis
+NOTE: PH0337-C.g390_1211-1550_DBLg6_ is identical to PH0133-CW.g132_1211-1550_DBLg6_ but kept for subsequent analysis
+NOTE: QE0481-C.g523_1191-1530_DBLg6_ is identical to QE0416-C.g995_1191-1530_DBLg6_ but kept for subsequent analysis
+NOTE: PH0229-C.g22_1216-1555_DBLg6_ is identical to PH0063-C.g449_1198-1537_DBLg6_ but kept for subsequent analysis
+NOTE: PR0163-C.g257_1264-1619_DBLg6_ is identical to PR0147-C.g577_1264-1619_DBLg6_ but kept for subsequent analysis
+NOTE: PH0636-C.g649_1245-1610_DBLg6_ is identical to PH0205-C.g298_1245-1610_DBLg6_ but kept for subsequent analysis
+NOTE: PT0202-Cx.g126_1209-1560_DBLg6_ is identical to PD0582-C.g37_1209-1560_DBLg6_ but kept for subsequent analysis
+NOTE: PF0264-C.g824_1311-1660_DBLg6_ is identical to PF0118-C.g844_1305-1654_DBLg6_ but kept for subsequent analysis
+NOTE: PF0325-C.g170_1309-1642_DBLg6_ is identical to PA0089-C.g427_1304-1637_DBLg6_ but kept for subsequent analysis
+NOTE: PV0269-C.g481_1222-1574_DBLg6_ is identical to PV0267-C.g449_1222-1574_DBLg6_ but kept for subsequent analysis
+NOTE: PD0724-C.g36_1273-1628_DBLg6_ is identical to PD0721-C.g31_1273-1628_DBLg6_ but kept for subsequent analysis
+NOTE: PV0317-C.g308_1247-1587_DBLg6_ is identical to PV0261-C.g29_1234-1574_DBLg6_ but kept for subsequent analysis
+NOTE: QG0280-C.g442_1273-1615_DBLg6_ is identical to QG0156-C.g4089_1273-1615_DBLg6_ but kept for subsequent analysis
+NOTE: SenT097.11.g664_1243-1587_DBLg6_ is identical to PF0081-C.g77_1243-1587_DBLg6_ but kept for subsequent analysis
+NOTE: PF0112-C.g170_1285-1630_DBLg6_ is identical to PF0102-C.g606_1286-1631_DBLg6_ but kept for subsequent analysis
+NOTE: QM0005-C.g1064_1290-1637_DBLg6_ is identical to PT0226-Cx.g645_1206-1553_DBLg6_ but kept for subsequent analysis
+NOTE: PT0081-C.g4221_1240-1591_DBLg6_ is identical to PF0722-C.g234_1240-1591_DBLg6_ but kept for subsequent analysis
+NOTE: PF0756-C.g260_1235-1588_DBLg6_ is identical to PF0048-C.g530_1275-1628_DBLg6_ but kept for subsequent analysis
+NOTE: PV0114-C.g65_1242-1592_DBLg6_ is identical to PH0615-C.g183_1242-1592_DBLg6_ but kept for subsequent analysis
+NOTE: QG0134-C.g846_1279-1630_DBLg6_ is identical to QG0031-C.g297_1271-1622_DBLg6_ but kept for subsequent analysis
+NOTE: PD0492-C.g1112_1287-1643_DBLg6_ is identical to PD0476-C.g1398_1287-1643_DBLg6_ but kept for subsequent analysis
+NOTE: PD0554-C.g159_1221-1573_DBLg6_ is identical to PD0538-C.g573_1223-1575_DBLg6_ but kept for subsequent analysis
+NOTE: PD0514-C.g908_1277-1630_DBLg6_ is identical to IT4-010005000_1277-1630_DBLg6_ but kept for subsequent analysis
+NOTE: QP0099-C.g439_1250-1607_DBLg6_ is identical to PT0209-C.g72_1218-1575_DBLg6_ but kept for subsequent analysis
+NOTE: QE0451-C.g318_1260-1617_DBLg6_ is identical to PH0368-C.g766_1260-1617_DBLg6_ but kept for subsequent analysis
+NOTE: 214 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: PH0327-C.g125_1244-1625_DBLg6_ (identical to IT4-020027600_1308-1689_DBLg6_) is ignored but added at the end
+NOTE: PH0461-C.g114_1241-1622_DBLg6_ (identical to IT4-020027600_1308-1689_DBLg6_) is ignored but added at the end
+NOTE: QE0424-C.g465_1207-1596_DBLg6_ (identical to PH1310-C.g158_1207-1596_DBLg6_) is ignored but added at the end
+NOTE: PF0493-C.g319_1291-1676_DBLg6_ (identical to PF0029-C.g271_1272-1657_DBLg6_) is ignored but added at the end
+NOTE: PR0157-C.g371_1238-1623_DBLg6_ (identical to PF0029-C.g271_1272-1657_DBLg6_) is ignored but added at the end
+NOTE: PT0247-Cx.g1544_1208-1584_DBLg6_ (identical to PM0068-C.g23_1205-1581_DBLg6_) is ignored but added at the end
+NOTE: PK0009-C.g846_1279-1622_DBLg6_ (identical to PF0373-C.g745_1205-1548_DBLg6_) is ignored but added at the end
+NOTE: PV0231-C.g87_1248-1591_DBLg6_ (identical to PF0373-C.g745_1205-1548_DBLg6_) is ignored but added at the end
+NOTE: QC0186-C.g593_1230-1573_DBLg6_ (identical to PF0373-C.g745_1205-1548_DBLg6_) is ignored but added at the end
+NOTE: PD0563-C.g612_1215-1572_DBLg6_ (identical to PD0552-C.g667_1215-1572_DBLg6_) is ignored but added at the end
+NOTE: PD0566-C.g698_1174-1531_DBLg6_ (identical to PD0552-C.g667_1215-1572_DBLg6_) is ignored but added at the end
+NOTE: PD0820-C.g549_1215-1572_DBLg6_ (identical to PD0552-C.g667_1215-1572_DBLg6_) is ignored but added at the end
+NOTE: PR0114-C.g217_1215-1572_DBLg6_ (identical to PD0552-C.g667_1215-1572_DBLg6_) is ignored but added at the end
+NOTE: PD0870-C.g69_1291-1654_DBLg6_ (identical to PD0830-C.g122_1291-1654_DBLg6_) is ignored but added at the end
+NOTE: PT0234-Cx.g91_1224-1588_DBLg6_ (identical to PF0775-C.g115_1078-1442_DBLg6_) is ignored but added at the end
+NOTE: PT0283-C.g345_1210-1574_DBLg6_ (identical to PF0775-C.g115_1078-1442_DBLg6_) is ignored but added at the end
+NOTE: PT0299-Cx.g204_1210-1574_DBLg6_ (identical to PF0775-C.g115_1078-1442_DBLg6_) is ignored but added at the end
+NOTE: QG0141-C.g2597_1195-1559_DBLg6_ (identical to PF0775-C.g115_1078-1442_DBLg6_) is ignored but added at the end
+NOTE: QG0205-C.g118_1205-1569_DBLg6_ (identical to PF0775-C.g115_1078-1442_DBLg6_) is ignored but added at the end
+NOTE: QP0235-C.g670_1221-1585_DBLg6_ (identical to PF0775-C.g115_1078-1442_DBLg6_) is ignored but added at the end
+NOTE: QP0196-C.g7005_1226-1585_DBLg6_ (identical to QG0159-C.g3131_1226-1585_DBLg6_) is ignored but added at the end
+NOTE: PT0143-C.g253_1217-1581_DBLg6_ (identical to PA0144-C.g80_1218-1582_DBLg6_) is ignored but added at the end
+NOTE: PD0495-C.g312_1279-1647_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PD0511-C.g249_1279-1647_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PD0530-C.g475_1277-1645_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PD0540-C.g526_1277-1645_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PD0545-C.g248_1277-1645_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PD0546-C.g514_1277-1645_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PD0549-C.g441_1277-1645_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PD0550-C.g233_1277-1645_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PD0569-C.g465_1277-1645_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PD0636-C.g136_1277-1645_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PD0846-C.g251_1279-1647_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PD0891-C.g92_1269-1637_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PE0137-C.g92_1282-1650_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PH0500-CW.g194_1277-1645_DBLg6_ (identical to PD0464-C.g392_1277-1645_DBLg6_) is ignored but added at the end
+NOTE: PF0522-C.g710_1203-1561_DBLg6_ (identical to PF0305-C.g750_1215-1573_DBLg6_) is ignored but added at the end
+NOTE: PM0159-C.g1_1219-1577_DBLg6_ (identical to PF0305-C.g750_1215-1573_DBLg6_) is ignored but added at the end
+NOTE: SenT151.08.g494_1268-1626_DBLg6_ (identical to PF0305-C.g750_1215-1573_DBLg6_) is ignored but added at the end
+NOTE: PM0136-C.g594_1216-1562_DBLg6_ (identical to PA0213-C.g362_1196-1542_DBLg6_) is ignored but added at the end
+NOTE: QG0115-C.g4800_1131-1477_DBLg6_ (identical to PA0213-C.g362_1196-1542_DBLg6_) is ignored but added at the end
+NOTE: PH0131-CW.g91_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0134-C.g109_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0224-C.g11_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0469-CW.g399_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0485-C.g112_1190-1540_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0534-C.g187_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0634-C.g201_1227-1577_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0819-C.g554_1103-1453_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0820-C.g626_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0823-C.g591_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0826-C.g559_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0828-C.g469_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0833-C.g819_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0847-C.g681_1135-1485_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0854-C.g470_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0855-C.g646_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0888-C.g329_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0889-C.g744_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0890-C.g829_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0893-C.g12833_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0894-C.g635_1149-1499_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0899-C.g471_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0900-C.g585_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0901-C.g801_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0907-C.g899_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0908-C.g880_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0910-C.g439_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0911-Cx.g429_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0915-C.g31_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0916-C.g1006_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0984-C.g259_1227-1577_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0989-C.g446_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0990-C.g1891_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH0991-C.g1046_1227-1577_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH1001-C.g958_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH1002-C.g1759_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH1136-C.g324_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PV0017-C.g327_1218-1568_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PV0035-C.g4_1227-1577_DBLg6_ (identical to PD0494-C.g71_1218-1568_DBLg6_) is ignored but added at the end
+NOTE: PH1153-C.g195_1227-1577_DBLg6_ (identical to PH0353-C.g127_1227-1577_DBLg6_) is ignored but added at the end
+NOTE: PH1218-C.g857_1227-1577_DBLg6_ (identical to PH0353-C.g127_1227-1577_DBLg6_) is ignored but added at the end
+NOTE: PV0046-C.g29_1227-1577_DBLg6_ (identical to PH0353-C.g127_1227-1577_DBLg6_) is ignored but added at the end
+NOTE: QE0464-C.g520_1227-1577_DBLg6_ (identical to PH0353-C.g127_1227-1577_DBLg6_) is ignored but added at the end
+NOTE: PH0933-C.g182_1184-1541_DBLg6_ (identical to PF0613-C.g2580_1178-1535_DBLg6_) is ignored but added at the end
+NOTE: PV0100-C.g4_1066-1420_DBLg6_ (identical to PD0468-C.g496_1216-1570_DBLg6_) is ignored but added at the end
+NOTE: PV0112-C.g6_1207-1561_DBLg6_ (identical to PD0468-C.g496_1216-1570_DBLg6_) is ignored but added at the end
+NOTE: PV0138-C.g5_1262-1616_DBLg6_ (identical to PD0468-C.g496_1216-1570_DBLg6_) is ignored but added at the end
+NOTE: PV0148-C.g3_1207-1561_DBLg6_ (identical to PD0468-C.g496_1216-1570_DBLg6_) is ignored but added at the end
+NOTE: PV0257-C.g90_1207-1561_DBLg6_ (identical to PD0468-C.g496_1216-1570_DBLg6_) is ignored but added at the end
+NOTE: QC0167-C.g207_1216-1570_DBLg6_ (identical to PD0468-C.g496_1216-1570_DBLg6_) is ignored but added at the end
+NOTE: PH0625-C.g38_1210-1564_DBLg6_ (identical to PH0347-C.g83_1210-1564_DBLg6_) is ignored but added at the end
+NOTE: PH0631-C.g111_1210-1564_DBLg6_ (identical to PH0347-C.g83_1210-1564_DBLg6_) is ignored but added at the end
+NOTE: PH0647-C.g15_1210-1564_DBLg6_ (identical to PH0347-C.g83_1210-1564_DBLg6_) is ignored but added at the end
+NOTE: PH0788-C.g745_1210-1564_DBLg6_ (identical to PH0347-C.g83_1210-1564_DBLg6_) is ignored but added at the end
+NOTE: PV0185-C.g49_1230-1580_DBLg6_ (identical to PD0889-C.g772_1269-1619_DBLg6_) is ignored but added at the end
+NOTE: IT4-070017000_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0012-C.g128_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0020-C.g182_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0047-C.g208_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0052-C.g144_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0085-C.g85_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0101-C.g101_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0134-C.g387_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0137-C.g151_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0140-C.g72_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0152-C.g150_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0169-C.g172_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0220-C.g303_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0227-C.g823_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0228-C.g1198_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0245-C.g434_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PA0254-C.g336_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PC0071-C.g80_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PC0083-C.g253_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PD0471-C.g328_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PD0581-C.g345_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PD0582-C.g482_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PD0586-C.g329_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PD0592-C.g1358_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PD0721-C.g91_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PD0831-C.g233_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PD0835-C.g958_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PD0842-C.g64_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PD0854-C.g35_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PD0898-C.g245_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PF0129-C.g785_1110-1469_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PF0465-C.g3167_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PH0232-C.g426_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PH0617-C.g22_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PH0926-C.g240_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PH0940-Cx.g487_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PM0018-C.g1083_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PM0019-C.g1029_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PM0051-C.g542_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PM0063-C.g123_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PM0136-C.g109_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PM0138-C.g421_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PR0120-C.g247_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: PT0078-Cx.g586_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: QC0179-C.g3634_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: QG0007-C.g240_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: QG0082-C.g3152_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: QG0106-C.g530_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: QG0235-C.g3026_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: QG0291-C.g1979_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: QP0029-C.g411_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: QP0118-C.g365_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: QP0195-C.g213_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: SenV042.05.g117_1223-1582_DBLg6_ (identical to Dd2-070016300_1223-1582_DBLg6_) is ignored but added at the end
+NOTE: QG0029-C.g231_1223-1580_DBLg6_ (identical to PT0053-C.g393_1235-1592_DBLg6_) is ignored but added at the end
+NOTE: PF0783-C.g1393_1287-1632_DBLg6_ (identical to PF0064-C.g144_1295-1640_DBLg6_) is ignored but added at the end
+NOTE: QG0190-C.g240_1207-1552_DBLg6_ (identical to PF0064-C.g144_1295-1640_DBLg6_) is ignored but added at the end
+NOTE: QG0246-C.g2325_1294-1638_DBLg6_ (identical to PA0095-C.g1391_1268-1612_DBLg6_) is ignored but added at the end
+NOTE: QP0226-C.g178_1313-1657_DBLg6_ (identical to PA0095-C.g1391_1268-1612_DBLg6_) is ignored but added at the end
+NOTE: QG0238-C.g3734_1198-1542_DBLg6_ (identical to PE0130-C.g90_1256-1600_DBLg6_) is ignored but added at the end
+NOTE: PH0516-C.g710_1211-1550_DBLg6_ (identical to PH0133-CW.g132_1211-1550_DBLg6_) is ignored but added at the end
+NOTE: PH0603-C.g1905_1211-1550_DBLg6_ (identical to PH0133-CW.g132_1211-1550_DBLg6_) is ignored but added at the end
+NOTE: PH0927-C.g491_1211-1550_DBLg6_ (identical to PH0133-CW.g132_1211-1550_DBLg6_) is ignored but added at the end
+NOTE: QE0470-C.g572_1211-1550_DBLg6_ (identical to PH0133-CW.g132_1211-1550_DBLg6_) is ignored but added at the end
+NOTE: PH0497-CW.g497_1198-1537_DBLg6_ (identical to PH0063-C.g449_1198-1537_DBLg6_) is ignored but added at the end
+NOTE: PH0905-C.g477_1198-1537_DBLg6_ (identical to PH0063-C.g449_1198-1537_DBLg6_) is ignored but added at the end
+NOTE: PV0329-C.g270_1245-1610_DBLg6_ (identical to PH0205-C.g298_1245-1610_DBLg6_) is ignored but added at the end
+NOTE: QE0448-C.g335_1249-1614_DBLg6_ (identical to PH0205-C.g298_1245-1610_DBLg6_) is ignored but added at the end
+NOTE: QE0449-C.g98_1249-1614_DBLg6_ (identical to PH0205-C.g298_1245-1610_DBLg6_) is ignored but added at the end
+NOTE: PV0017-C.g869_1209-1560_DBLg6_ (identical to PD0582-C.g37_1209-1560_DBLg6_) is ignored but added at the end
+NOTE: PV0120-C.g9_1209-1560_DBLg6_ (identical to PD0582-C.g37_1209-1560_DBLg6_) is ignored but added at the end
+NOTE: PV0231-C.g106_1209-1560_DBLg6_ (identical to PD0582-C.g37_1209-1560_DBLg6_) is ignored but added at the end
+NOTE: PV0238-C.g4_1089-1440_DBLg6_ (identical to PD0582-C.g37_1209-1560_DBLg6_) is ignored but added at the end
+NOTE: PV0239-C.g10_1209-1560_DBLg6_ (identical to PD0582-C.g37_1209-1560_DBLg6_) is ignored but added at the end
+NOTE: PV0304-C.g661_1209-1560_DBLg6_ (identical to PD0582-C.g37_1209-1560_DBLg6_) is ignored but added at the end
+NOTE: PV0319-C.g257_1247-1587_DBLg6_ (identical to PV0261-C.g29_1234-1574_DBLg6_) is ignored but added at the end
+NOTE: SenT140.11.g1158_1243-1587_DBLg6_ (identical to PF0081-C.g77_1243-1587_DBLg6_) is ignored but added at the end
+NOTE: PF0178-C.g494_1274-1619_DBLg6_ (identical to PF0102-C.g606_1286-1631_DBLg6_) is ignored but added at the end
+NOTE: PF0433-C.g29_1203-1548_DBLg6_ (identical to PF0102-C.g606_1286-1631_DBLg6_) is ignored but added at the end
+NOTE: PM0093-C.g117_1274-1619_DBLg6_ (identical to PF0102-C.g606_1286-1631_DBLg6_) is ignored but added at the end
+NOTE: PT0296-C.g8829_1254-1599_DBLg6_ (identical to PF0102-C.g606_1286-1631_DBLg6_) is ignored but added at the end
+NOTE: QG0297-C.g2299_1256-1601_DBLg6_ (identical to PF0102-C.g606_1286-1631_DBLg6_) is ignored but added at the end
+NOTE: QP0205-C.g5422_1283-1630_DBLg6_ (identical to PT0226-Cx.g645_1206-1553_DBLg6_) is ignored but added at the end
+NOTE: PT0141-C.g225_1283-1636_DBLg6_ (identical to PF0048-C.g530_1275-1628_DBLg6_) is ignored but added at the end
+NOTE: QG0164-C.g235_1274-1627_DBLg6_ (identical to PF0048-C.g530_1275-1628_DBLg6_) is ignored but added at the end
+NOTE: PV0116-C.g70_1242-1592_DBLg6_ (identical to PH0615-C.g183_1242-1592_DBLg6_) is ignored but added at the end
+NOTE: PV0118-C.g67_1242-1592_DBLg6_ (identical to PH0615-C.g183_1242-1592_DBLg6_) is ignored but added at the end
+NOTE: PV0124-C.g62_1242-1592_DBLg6_ (identical to PH0615-C.g183_1242-1592_DBLg6_) is ignored but added at the end
+NOTE: PV0303-C.g226_1242-1592_DBLg6_ (identical to PH0615-C.g183_1242-1592_DBLg6_) is ignored but added at the end
+NOTE: QE0437-C.g979_1242-1592_DBLg6_ (identical to PH0615-C.g183_1242-1592_DBLg6_) is ignored but added at the end
+NOTE: QG0135-C.g1019_1271-1622_DBLg6_ (identical to QG0031-C.g297_1271-1622_DBLg6_) is ignored but added at the end
+NOTE: PD0518-C.g58_1287-1643_DBLg6_ (identical to PD0476-C.g1398_1287-1643_DBLg6_) is ignored but added at the end
+NOTE: PD0557-C.g655_1287-1643_DBLg6_ (identical to PD0476-C.g1398_1287-1643_DBLg6_) is ignored but added at the end
+NOTE: PD0565-C.g198_1287-1643_DBLg6_ (identical to PD0476-C.g1398_1287-1643_DBLg6_) is ignored but added at the end
+NOTE: PD0771-C.g182_1287-1643_DBLg6_ (identical to PD0476-C.g1398_1287-1643_DBLg6_) is ignored but added at the end
+NOTE: PD0833-C.g191_1287-1643_DBLg6_ (identical to PD0476-C.g1398_1287-1643_DBLg6_) is ignored but added at the end
+NOTE: PD0840-C.g67_1287-1643_DBLg6_ (identical to PD0476-C.g1398_1287-1643_DBLg6_) is ignored but added at the end
+NOTE: PD0882-C.g705_1287-1643_DBLg6_ (identical to PD0476-C.g1398_1287-1643_DBLg6_) is ignored but added at the end
+NOTE: PD0901-C.g181_1259-1615_DBLg6_ (identical to PD0476-C.g1398_1287-1643_DBLg6_) is ignored but added at the end
+NOTE: PD0572-C.g427_1223-1575_DBLg6_ (identical to PD0538-C.g573_1223-1575_DBLg6_) is ignored but added at the end
+NOTE: PD0816-C.g328_1223-1575_DBLg6_ (identical to PD0538-C.g573_1223-1575_DBLg6_) is ignored but added at the end
+NOTE: PD0817-C.g156_1223-1575_DBLg6_ (identical to PD0538-C.g573_1223-1575_DBLg6_) is ignored but added at the end
+NOTE: PD0818-C.g317_1223-1575_DBLg6_ (identical to PD0538-C.g573_1223-1575_DBLg6_) is ignored but added at the end
+NOTE: PD0827-C.g155_1223-1575_DBLg6_ (identical to PD0538-C.g573_1223-1575_DBLg6_) is ignored but added at the end
+NOTE: PH0980-C.g52_1223-1575_DBLg6_ (identical to PD0538-C.g573_1223-1575_DBLg6_) is ignored but added at the end
+NOTE: PD0518-C.g298_1277-1630_DBLg6_ (identical to IT4-010005000_1277-1630_DBLg6_) is ignored but added at the end
+NOTE: PD0532-C.g286_1277-1630_DBLg6_ (identical to IT4-010005000_1277-1630_DBLg6_) is ignored but added at the end
+NOTE: PD0557-C.g112_1277-1630_DBLg6_ (identical to IT4-010005000_1277-1630_DBLg6_) is ignored but added at the end
+NOTE: PD0571-C.g237_1277-1630_DBLg6_ (identical to IT4-010005000_1277-1630_DBLg6_) is ignored but added at the end
+NOTE: PF0077-C.g313_1277-1630_DBLg6_ (identical to IT4-010005000_1277-1630_DBLg6_) is ignored but added at the end
+NOTE: PH0052-C.g332_1277-1630_DBLg6_ (identical to IT4-010005000_1277-1630_DBLg6_) is ignored but added at the end
+NOTE: PH0108-CW.g76_1277-1630_DBLg6_ (identical to IT4-010005000_1277-1630_DBLg6_) is ignored but added at the end
+NOTE: PH0114-C.g8_1277-1630_DBLg6_ (identical to IT4-010005000_1277-1630_DBLg6_) is ignored but added at the end
+NOTE: PH0232-C.g401_1330-1683_DBLg6_ (identical to IT4-010005000_1277-1630_DBLg6_) is ignored but added at the end
+NOTE: PV0266-C.g70_1277-1630_DBLg6_ (identical to IT4-010005000_1277-1630_DBLg6_) is ignored but added at the end
+NOTE: PV0278-C.g13_1277-1630_DBLg6_ (identical to IT4-010005000_1277-1630_DBLg6_) is ignored but added at the end
+NOTE: PV0345-C.g739_1277-1630_DBLg6_ (identical to IT4-010005000_1277-1630_DBLg6_) is ignored but added at the end
+NOTE: QE0429-C.g136_1277-1630_DBLg6_ (identical to IT4-010005000_1277-1630_DBLg6_) is ignored but added at the end
+Alignment was printed to DC8_DBLg6_wholeseq.aligned.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to DC8_DBLg6_wholeseq.aligned.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.074 seconds
+
+NOTE: 182 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -51602.983
+2. Current log-likelihood: -51157.864
+3. Current log-likelihood: -51153.652
+4. Current log-likelihood: -51153.223
+5. Current log-likelihood: -51152.960
+6. Current log-likelihood: -51152.727
+7. Current log-likelihood: -51152.489
+8. Current log-likelihood: -51152.233
+9. Current log-likelihood: -51151.969
+10. Current log-likelihood: -51151.732
+11. Current log-likelihood: -51151.549
+12. Current log-likelihood: -51151.417
+Optimal log-likelihood: -51151.325
+Proportion of invariable sites: 0.103
+Site proportion and rates:  (0.068,0.041) (0.065,0.139) (0.069,0.333) (0.048,0.333) (0.043,0.561) (0.076,0.734) (0.179,1.005) (0.150,1.514) (0.149,2.060) (0.052,3.008)
+Parameters optimization took 12 rounds (36.084 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 2.49043 secs using 796.8% CPU
+Computing ML distances took 2.490749 sec (of wall-clock time) 19.844842 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000699651 secs using 233.1% CPU
+Computing RapidNJ tree took 0.472908 sec (of wall-clock time) 0.491647 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -51463.461
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 11.159 second
+Computing log-likelihood of 98 initial trees ... 15.909 seconds
+Current best score: -50824.437
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -50531.132
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -50524.419
+Iteration 10 / LogL: -50795.122 / Time: 0h:2m:18s
+Iteration 20 / LogL: -50721.760 / Time: 0h:3m:12s
+Finish initializing candidate tree set (20)
+Current best tree score: -50524.419 / CPU time: 150.047
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -50498.715
+Iteration 30 / LogL: -50500.348 / Time: 0h:4m:17s (0h:14m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -50463.539
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -50461.261
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -50458.570
+Iteration 40 / LogL: -50458.570 / Time: 0h:5m:33s (0h:14m:14s left)
+Iteration 50 / LogL: -50604.999 / Time: 0h:6m:29s (0h:11m:55s left)
+Iteration 60 / LogL: -50503.663 / Time: 0h:7m:29s (0h:10m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -50455.469
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 69: -50453.016
+Iteration 70 / LogL: -50462.892 / Time: 0h:8m:37s (0h:12m:23s left)
+Iteration 80 / LogL: -50458.376 / Time: 0h:9m:32s (0h:10m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 90: -50452.407
+Iteration 90 / LogL: -50452.407 / Time: 0h:10m:29s (0h:11m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 93: -50448.815
+Iteration 100 / LogL: -50465.605 / Time: 0h:11m:32s (0h:10m:50s left)
+Iteration 110 / LogL: -50475.410 / Time: 0h:12m:27s (0h:9m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 115: -50448.373
+Iteration 120 / LogL: -50531.335 / Time: 0h:13m:27s (0h:10m:44s left)
+Iteration 130 / LogL: -50466.697 / Time: 0h:14m:23s (0h:9m:28s left)
+Iteration 140 / LogL: -50488.447 / Time: 0h:15m:20s (0h:8m:16s left)
+Iteration 150 / LogL: -50463.203 / Time: 0h:16m:17s (0h:7m:6s left)
+Iteration 160 / LogL: -50450.824 / Time: 0h:17m:15s (0h:5m:57s left)
+Iteration 170 / LogL: -50464.559 / Time: 0h:18m:9s (0h:4m:50s left)
+Iteration 180 / LogL: -50471.640 / Time: 0h:19m:5s (0h:3m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 185: -50448.007
+Iteration 190 / LogL: -50475.818 / Time: 0h:20m:3s (0h:10m:4s left)
+Iteration 200 / LogL: -50458.825 / Time: 0h:20m:58s (0h:8m:57s left)
+Iteration 210 / LogL: -50452.452 / Time: 0h:21m:54s (0h:7m:51s left)
+BETTER TREE FOUND at iteration 217: -50448.006
+Iteration 220 / LogL: -50526.866 / Time: 0h:22m:49s (0h:10m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 221: -50445.088
+Iteration 230 / LogL: -50450.030 / Time: 0h:23m:49s (0h:9m:27s left)
+Iteration 240 / LogL: -50520.417 / Time: 0h:24m:46s (0h:8m:23s left)
+Iteration 250 / LogL: -50446.068 / Time: 0h:25m:44s (0h:7m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 251: -50444.862
+Iteration 260 / LogL: -51005.482 / Time: 0h:26m:44s (0h:9m:23s left)
+Iteration 270 / LogL: -50445.981 / Time: 0h:27m:41s (0h:8m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 273: -50433.911
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 274: -50415.857
+Iteration 280 / LogL: -50691.534 / Time: 0h:28m:48s (0h:9m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 288: -50410.103
+Iteration 290 / LogL: -50485.014 / Time: 0h:29m:51s (0h:10m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 296: -50409.335
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 297: -50402.261
+Iteration 300 / LogL: -50454.108 / Time: 0h:30m:55s (0h:10m:1s left)
+Iteration 310 / LogL: -50418.553 / Time: 0h:31m:50s (0h:8m:57s left)
+Iteration 320 / LogL: -50413.013 / Time: 0h:32m:50s (0h:7m:55s left)
+Iteration 330 / LogL: -50417.596 / Time: 0h:33m:46s (0h:6m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 335: -50400.245
+Iteration 340 / LogL: -50426.562 / Time: 0h:34m:46s (0h:9m:44s left)
+Iteration 350 / LogL: -50410.425 / Time: 0h:35m:40s (0h:8m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 355: -50399.908
+Iteration 360 / LogL: -50424.172 / Time: 0h:36m:36s (0h:9m:41s left)
+Iteration 370 / LogL: -50400.425 / Time: 0h:37m:30s (0h:8m:38s left)
+Iteration 380 / LogL: -50445.859 / Time: 0h:38m:24s (0h:7m:36s left)
+Iteration 390 / LogL: -50445.962 / Time: 0h:39m:22s (0h:6m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 399: -50399.666
+Iteration 400 / LogL: -50402.557 / Time: 0h:40m:22s (0h:10m:1s left)
+Iteration 410 / LogL: -50457.277 / Time: 0h:41m:21s (0h:8m:59s left)
+Iteration 420 / LogL: -50417.562 / Time: 0h:42m:17s (0h:7m:58s left)
+Iteration 430 / LogL: -50585.843 / Time: 0h:43m:10s (0h:6m:56s left)
+Iteration 440 / LogL: -50660.681 / Time: 0h:44m:3s (0h:5m:55s left)
+Iteration 450 / LogL: -50512.330 / Time: 0h:45m:0s (0h:4m:54s left)
+Iteration 460 / LogL: -50427.802 / Time: 0h:45m:57s (0h:3m:54s left)
+Iteration 470 / LogL: -50405.325 / Time: 0h:46m:51s (0h:2m:53s left)
+Iteration 480 / LogL: -50412.035 / Time: 0h:47m:48s (0h:1m:53s left)
+Iteration 490 / LogL: -50433.682 / Time: 0h:48m:42s (0h:0m:53s left)
+Iteration 500 / LogL: -50406.589 / Time: 0h:49m:39s (0h:0m:-6s left)
+TREE SEARCH COMPLETED AFTER 500 ITERATIONS / Time: 0h:49m:39s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -50399.666
+Optimal log-likelihood: -50399.666
+Proportion of invariable sites: 0.102
+Site proportion and rates:  (0.068,0.043) (0.092,0.171) (0.073,0.372) (0.051,0.372) (0.032,0.692) (0.074,0.692) (0.187,1.045) (0.185,1.665) (0.097,2.309) (0.038,3.470)
+Parameters optimization took 1 rounds (0.542 sec)
+BEST SCORE FOUND : -50399.666
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.997 sec.
+Total tree length: 36.653
+
+Total number of iterations: 500
+CPU time used for tree search: 23248.331 sec (6h:27m:28s)
+Wall-clock time used for tree search: 2937.190 sec (0h:48m:57s)
+Total CPU time used: 23595.066 sec (6h:33m:15s)
+Total wall-clock time used: 2981.296 sec (0h:49m:41s)
+
+Analysis results written to: 
+  IQ-TREE report:                DC8_DBLg6_wholeseq.aligned.fasta.iqtree
+  Maximum-likelihood tree:       DC8_DBLg6_wholeseq.aligned.fasta.treefile
+  Likelihood distances:          DC8_DBLg6_wholeseq.aligned.fasta.mldist
+  Screen log file:               DC8_DBLg6_wholeseq.aligned.fasta.log
+
+Date and Time: Mon Mar 24 12:00:33 2025
