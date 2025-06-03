@@ -7,12 +7,6 @@ The github is split between primary dissertation relevant analyses and auxillary
 
 **Primary**
 
-VAR2CSA Analysis:
--
-- Var2csa FASTA files
-- Var2csa Code for 3D MDS
-
-
 DC8 
 -
 
@@ -40,3 +34,9 @@ Including identical sequences
 
 **Secondary**
 This is unfinished code and analyses primarily concerning DC13 and other DC8 domains, which were not included in the dissertation. Find under 'secondary' folder.
+
+This also contains the 
+VAR2CSA Analysis:
+-
+- Var2csa FASTA files
+- Var2csa Code for 3D MDS
